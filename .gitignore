@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Windows reserved / stray artifacts
+nul
+
+# Secrets & local overrides — NEVER commit
+.env
+*.token
+*.secret
+settings.local.json

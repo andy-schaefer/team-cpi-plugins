@@ -1,0 +1,20 @@
+{
+  "_comment": "DESADV (DELIVERY_REQUEST_OUT) Equipment lookup. From configured-production.md (MM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV and the *_cdm / *_cdm_6 variants): API_EQUIPMENT, filter `MaintObjectFreeDefinedAttrib eq '%s'`, key fed from /ns0:DeliveryRequest/Delivery/HandlingUnit/ID, returns the Equipment number. EntitySet 'Equipment' (EntityType EquipmentType, Schema cds_api_equipment) confirmed from API_EQUIPMENT.edmx; MaintObjectFreeDefinedAttrib + Equipment are both Edm.String properties present on the type. Generate: gen-lookups <outdir> <this> <cpi-lookup-template/skeleton/LOOKUP_TEMPLATE>",
+  "lookups": [
+    {
+      "name": "LOOKUP_EQUIPMENT_HU",
+      "description": "DESADV: resolve the Equipment number from API_EQUIPMENT by the handling-unit external ID carried in MaintObjectFreeDefinedAttrib (PI key <- /DeliveryRequest/Delivery/HandlingUnit/ID, filter MaintObjectFreeDefinedAttrib eq '%s', result param Equipment). EntitySet Equipment has a composite key (Equipment, ValidityEndDate) so a HU can map to several validity slices; consumer takes the first/current.",
+      "service": "API_EQUIPMENT",
+      "entity": "Equipment",
+      "edmx": "../edmx/API_EQUIPMENT.edmx",
+      "filter_keys": ["MaintObjectFreeDefinedAttrib"],
+      "select": ["Equipment", "MaintObjectFreeDefinedAttrib", "ValidityEndDate"],
+      "filter": "MaintObjectFreeDefinedAttrib eq '${header.MaintObjectFreeDefinedAttrib}'",
+      "response_fields": ["Equipment"],
+      "result": [
+        ["HandlingUnitID", "${header.MaintObjectFreeDefinedAttrib}"],
+        ["Equipment", "${header.Equipment}"]
+      ]
+    }
+  ]
+}

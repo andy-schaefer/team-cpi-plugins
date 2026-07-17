@@ -1,0 +1,59 @@
+# External definitions (`ifmextdef`)
+
+Imported schemas (XSD/WSDL). Two flavours: **EDI message structures** (EDIFACT/VDA/ANSI X12, in `SYNTAX_EDI`) are the **Seeburger-relevant** ones; the rest are S4HC / SPS service-API structures (CPI side). Extract the schema files with `extract_tpz.py extdefs <tpz> <outdir>`.
+
+| Package | Name | Namespace |
+|---|---|---|
+| SPS_S4HC | S4HC_OP_DELIVERYREQUEST_IN | `http://sps.shop/s4hc` |
+| SPS_S4HC | S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN | `http://sps.shop/s4hc` |
+| SPS_S4HC | SPS_BTP_SELFBILLINGREQUEST_API_IN | `http://sps.shop/s4hc/customers` |
+| SPS_S4HC | SPS_BTP_SelfBilling_API_OUT | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_DELIVERYREQUEST_IN | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_DELIVERYREQUEST_IN_prepare | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_BDCREATESELFBILLINGREQUEST_IN | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_BDCREATESELFBILLINGREQUEST_IN | `http://sps.shop/s4hc/customers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT | `http://sps.shop_/s4hc` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT | `http://sps.shop/s4hc` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT | `http://sps.shop/s4hc/customers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_V2 | `http://sps.shop/s4hc/customers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm | `http://sps.shop_/s4hc` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_INVOICE_REQUEST_OUT | `http://sps.shop/s4hc/customers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_ORDER_REQUEST_OUT | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_SCHEDGAGRMT_OUT | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_SCHEDGAGRMT_OUT | `http://sps.shop_/s4hc` |
+| SPS_S4HC | SPS_S4HC_CO_EDI_SCHEDGAGRMT_OUT | `http://sps.shop/s4hc` |
+| SPS_S4HC | SPS_S4HC_CO_PPINT_MFGORD_EXE_REQ_OUT | `http://sps.shop/s4hc/internal` |
+| SPS_S4HC | SPS_S4HC_DELIVERYREQUEST_IN | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_INVOICEREQUEST_IN | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_OP_DELIVERYREQUEST_IN | `http://sps.shop/s4hc` |
+| SPS_S4HC | SPS_S4HC_OP_DELIVERYREQUEST_IN | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_ORDERCONFIRMATIONREQUEST_IN | `http://sps.shop/s4hc/suppliers` |
+| SPS_S4HC | SPS_S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN | `http://sps.shop/s4hc` |
+| SPS_S4HC | SPS_S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN | `http://sps.shop/s4hc/customers` |
+| SYNTAX_EDI | DELFOR04A | `http://syntax.com/edi` |
+| SYNTAX_EDI | DELFOR04A | `http://syntax/edi` |
+| SYNTAX_EDI | DESADV07A | `http://syntax.com/edi` |
+| SYNTAX_EDI | DESADV10B | `http://syntax.com/edi` |
+| SYNTAX_EDI | ZDELFOR04A | `http://syntax.com/edi` |
+| SYNTAX_EDI | ZDELFOR04A | `http://syntax/edi` |
+| SYNTAX_EDI | ZDELFOR04A_Filter | `http://syntax.com/edi` |
+| SYNTAX_EDI | ZDELFOR04A_udf | `http://syntax.com/edi` |
+| SYNTAX_S4HC | S4HC_BTP_SALESORDERBULKREQUEST_IN_cdm | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_BTP_SELFBILLINGREQUEST_API_IN | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_BTP_SELFBILLINGREQUEST_API_IN_cdm | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_CO_EDI_DELIVERY_REQUEST_OUT | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_CO_EDI_DELIVERY_REQUEST_OUT_collect | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_CO_EDI_DELIVERY_REQUEST_OUT_remap | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_CO_EDI_DELIVERY_REQUEST_OUT_sort | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_CO_EDI_SCHEDGAGRMT_OUT | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_JITCALLREQUEST_IN_cdm | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_OP_DELIVERYREQUEST_IN | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN | `http://syntax.com/s4hc` |
+| SYNTAX_S4HC | S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN_cdm | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN_wo_policy | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_TransmissionReceiverAPI | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_TransmissionReceiverAPI_cdm | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | S4HC_Transport_API_Reduced | `http://syntax.com/cdm` |
+| SYNTAX_S4HC | SPS_BTP_SELFBILLINGREQUEST_API_IN_cdm | `http://syntax.com/cdm` |

@@ -1,0 +1,21 @@
+{
+  "_comment": "DESADV (DELIVERY_REQUEST_OUT) Sales Organization lookup. From configured-production.md (MM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV and *_cdm variants): API_SALESORGANIZATION_SRV, PI key read A_SalesOrganization('%s') with key <- /DeliveryRequest/Delivery/SalesOrganization. Reformulated as entity-set A_SalesOrganization + `$filter SalesOrganization eq '%s'`. EntitySet 'A_SalesOrganization' (EntityType A_SalesOrganizationType, Schema API_SALESORGANIZATION_SRV, OData V2) confirmed from API_SALESORGANIZATION_SRV_0001.edmx; props: SalesOrganization, SalesOrganizationCurrency, CompanyCode, IntercompanyBillingCustomer. Generate: gen-lookups <outdir> <this> <cpi-lookup-template/skeleton/LOOKUP_TEMPLATE>",
+  "lookups": [
+    {
+      "name": "LOOKUP_SALESORG",
+      "description": "DESADV: resolve a Sales Organization's attributes from API_SALESORGANIZATION_SRV (PI A_SalesOrganization('%s'), key <- Delivery/SalesOrganization). Returns SalesOrganizationCurrency and CompanyCode.",
+      "service": "API_SALESORGANIZATION_SRV",
+      "entity": "A_SalesOrganization",
+      "edmx": "../edmx/API_SALESORGANIZATION_SRV.edmx",
+      "filter_keys": ["SalesOrganization"],
+      "select": ["SalesOrganization", "SalesOrganizationCurrency", "CompanyCode", "IntercompanyBillingCustomer"],
+      "filter": "SalesOrganization eq '${header.SalesOrganization}'",
+      "response_fields": ["SalesOrganization", "SalesOrganizationCurrency", "CompanyCode"],
+      "result": [
+        ["SalesOrganization", "${header.SalesOrganization}"],
+        ["SalesOrganizationCurrency", "${header.SalesOrganizationCurrency}"],
+        ["CompanyCode", "${header.CompanyCode}"]
+      ]
+    }
+  ]
+}

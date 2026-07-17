@@ -1,0 +1,40 @@
+{
+  "_comment": "DELFOR-out (SCHEDGAGRMT) lookup iFlows. Derived from extract_tpz.py 'configured'/'lookups' analysis of XI7_1_SmartPressShop.tpz. PI key+nav reads A_BusinessPartner('K')/to_X reformulated as entity-set A_X + $filter=BusinessPartner eq 'K'. Generate with: gen-lookups <outdir> <this file> <cpi-lookup-template/skeleton/LOOKUP_TEMPLATE>",
+  "lookups": [
+    {
+      "name": "LOOKUP_BP_ADDRESS",
+      "description": "Lookup Business Partner address (FullName/Street/City/Country) from API_BUSINESS_PARTNER, entity A_BusinessPartnerAddress, by BusinessPartner. Used by DELFOR-out (SCHEDGAGRMT).",
+      "service": "API_BUSINESS_PARTNER",
+      "entity": "A_BusinessPartnerAddress",
+      "edmx": "../edmx/API_BUSINESS_PARTNER.edmx",
+      "filter_keys": ["BusinessPartner"],
+      "select": ["BusinessPartner", "AddressID", "FullName", "StreetName", "HouseNumber", "PostalCode", "CityName", "Country"],
+      "filter": "BusinessPartner eq '${header.BusinessPartner}'",
+      "response_fields": ["FullName", "StreetName", "HouseNumber", "PostalCode", "CityName", "Country"],
+      "result": [
+        ["BusinessPartnerID", "${header.BusinessPartner}"],
+        ["FullName", "${header.FullName}"],
+        ["StreetName", "${header.StreetName}"],
+        ["HouseNumber", "${header.HouseNumber}"],
+        ["PostalCode", "${header.PostalCode}"],
+        ["CityName", "${header.CityName}"],
+        ["Country", "${header.Country}"]
+      ]
+    },
+    {
+      "name": "LOOKUP_BP_IDENTIFICATION",
+      "description": "Lookup Business Partner identification number (type BUP001) from API_BUSINESS_PARTNER, entity A_BuPaIdentification, by BusinessPartner. Used by DELFOR-out (SCHEDGAGRMT).",
+      "service": "API_BUSINESS_PARTNER",
+      "entity": "A_BuPaIdentification",
+      "edmx": "../edmx/API_BUSINESS_PARTNER.edmx",
+      "filter_keys": ["BusinessPartner"],
+      "select": ["BusinessPartner", "BPIdentificationType", "BPIdentificationNumber"],
+      "filter": "BusinessPartner eq '${header.BusinessPartner}' and BPIdentificationType eq 'BUP001'",
+      "response_fields": ["BPIdentificationNumber"],
+      "result": [
+        ["BusinessPartnerID", "${header.BusinessPartner}"],
+        ["BPIdentificationNumber", "${header.BPIdentificationNumber}"]
+      ]
+    }
+  ]
+}

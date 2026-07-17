@@ -1,0 +1,40 @@
+{
+  "_comment": "DESADV (DELIVERY_REQUEST_OUT) CustomerSalesArea / PartnerFunction lookup set. From extract_tpz.py analysis of MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV. PI key+nav A_CustomerSalesArea(Customer=,SalesOrganization=,DistributionChannel=,Division=)/to_PartnerFunction reformulated as entity-set A_CustSalesPartnerFunc + composite $filter; PartnerFunction is a PASSED filter key (caller sends 'SH' ship-to / 'CR' carrier) so one iFlow serves both. NOTE: PI's CR call additionally did server-side 'Supplier eq <x>'; a single baked $filter can't add that for CR only, so Supplier is returned in the result instead (consumer filters). A_Customer('K')/to_CustomerSalesArea -> A_CustomerSalesArea filtered by Customer. Generate: gen-lookups <outdir> <this> <cpi-lookup-template/skeleton/LOOKUP_TEMPLATE>",
+  "lookups": [
+    {
+      "name": "LOOKUP_CUSTSALES_PARTNERFUNC",
+      "description": "DESADV: resolve a customer-sales-area partner by PartnerFunction (e.g. SH ship-to, CR carrier) from API_BUSINESS_PARTNER/A_CustSalesPartnerFunc. Filter keys: Customer (BuyerPartyID), SalesOrganization, DistributionChannel, Division, PartnerFunction. Returns the partner (BPCustomerNumber / CustomerPartnerDescription / Supplier).",
+      "service": "API_BUSINESS_PARTNER",
+      "entity": "A_CustSalesPartnerFunc",
+      "edmx": "../edmx/API_BUSINESS_PARTNER.edmx",
+      "filter_keys": ["Customer", "SalesOrganization", "DistributionChannel", "Division", "PartnerFunction"],
+      "select": ["Customer", "SalesOrganization", "DistributionChannel", "Division", "PartnerFunction", "PartnerCounter", "BPCustomerNumber", "CustomerPartnerDescription", "Supplier"],
+      "filter": "Customer eq '${header.Customer}' and SalesOrganization eq '${header.SalesOrganization}' and DistributionChannel eq '${header.DistributionChannel}' and Division eq '${header.Division}' and PartnerFunction eq '${header.PartnerFunction}'",
+      "response_fields": ["BPCustomerNumber", "CustomerPartnerDescription", "Supplier"],
+      "result": [
+        ["Customer", "${header.Customer}"],
+        ["PartnerFunction", "${header.PartnerFunction}"],
+        ["BPCustomerNumber", "${header.BPCustomerNumber}"],
+        ["CustomerPartnerDescription", "${header.CustomerPartnerDescription}"],
+        ["Supplier", "${header.Supplier}"]
+      ]
+    },
+    {
+      "name": "LOOKUP_CUSTOMER_SALESAREA",
+      "description": "DESADV: get the sales area(s) (SalesOrganization/DistributionChannel/Division) for a customer from API_BUSINESS_PARTNER/A_CustomerSalesArea (PI: A_Customer('K')/to_CustomerSalesArea).",
+      "service": "API_BUSINESS_PARTNER",
+      "entity": "A_CustomerSalesArea",
+      "edmx": "../edmx/API_BUSINESS_PARTNER.edmx",
+      "filter_keys": ["Customer"],
+      "select": ["Customer", "SalesOrganization", "DistributionChannel", "Division"],
+      "filter": "Customer eq '${header.Customer}'",
+      "response_fields": ["SalesOrganization", "DistributionChannel", "Division"],
+      "result": [
+        ["Customer", "${header.Customer}"],
+        ["SalesOrganization", "${header.SalesOrganization}"],
+        ["DistributionChannel", "${header.DistributionChannel}"],
+        ["Division", "${header.Division}"]
+      ]
+    }
+  ]
+}

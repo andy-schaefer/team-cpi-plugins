@@ -1,0 +1,24 @@
+{
+  "_comment": "DESADV (DELIVERY_REQUEST_OUT) Handling Unit lookup. From configured-production.md (MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__..._cdm_6): service path `srvd_a2x/sap/handlingunit/0001/HandlingUnit`, binding `api_handlingunit`, filter `HandlingUnitExternalID eq '%s'`, key <- /DeliveryRequest/Delivery/HandlingUnit/ID. THIS IS OData V4 / A2X (edmx Edmx Version 4.0, Schema com.sap.gateway.srvd_a2x.api_handlingunit.v0001, EntitySet HandlingUnit). Generate with the V4 skeleton: gen-lookups <outdir> <this> <cpi-lookup-template/skeleton/LOOKUP_TEMPLATE_V4>. 'service_path' supplies the odata4 address segment (api_handlingunit/srvd_a2x/sap/handlingunit/0001); 'service' (API_HANDLINGUNIT) names the edmx file. NO hand-patch needed (the V4 template carries MessageProtocol=OData V4, resourcePathForOdatav4=entity, csrfEnabled, no contentType, base /sap/opu/odata4/sap/). EntitySet key is (HandlingUnitExternalID, Warehouse) so filtering by external id alone can return one row per warehouse. Result fields are a sensible default (packaging + weights) since the PI extractor did not capture the consumed result params — verify against the DESADV target on first test.",
+  "lookups": [
+    {
+      "name": "LOOKUP_HANDLINGUNIT",
+      "description": "DESADV: resolve Handling Unit details from the A2X API_HANDLINGUNIT (OData V4) by HandlingUnitExternalID (PI key <- Delivery/HandlingUnit/ID). Returns packaging material, plant and gross/net weight. Generated from LOOKUP_TEMPLATE_V4 (OData V4 / A2X).",
+      "service": "API_HANDLINGUNIT",
+      "service_path": "api_handlingunit/srvd_a2x/sap/handlingunit/0001",
+      "entity": "HandlingUnit",
+      "edmx": "../edmx/API_HANDLINGUNIT.edmx",
+      "filter_keys": ["HandlingUnitExternalID"],
+      "select": ["HandlingUnitExternalID", "PackagingMaterial", "Plant", "GrossWeight", "NetWeight", "WeightUnit"],
+      "filter": "HandlingUnitExternalID eq '${header.HandlingUnitExternalID}'",
+      "response_fields": ["HandlingUnitExternalID", "PackagingMaterial", "GrossWeight", "NetWeight", "WeightUnit"],
+      "result": [
+        ["HandlingUnitExternalID", "${header.HandlingUnitExternalID}"],
+        ["PackagingMaterial", "${header.PackagingMaterial}"],
+        ["GrossWeight", "${header.GrossWeight}"],
+        ["NetWeight", "${header.NetWeight}"],
+        ["WeightUnit", "${header.WeightUnit}"]
+      ]
+    }
+  ]
+}

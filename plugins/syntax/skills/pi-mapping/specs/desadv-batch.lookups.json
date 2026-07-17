@@ -1,0 +1,21 @@
+{
+  "_comment": "DESADV (DELIVERY_REQUEST_OUT) Batch lookup. From configured-production.md (MM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV and *_cdm variants): API_BATCH_SRV, filter `Batch eq '%s'`, key fed from the delivery Batch, PI result param Batch. EntitySet 'Batch' (EntityType BatchType, Schema cds_api_batch_srv, OData V2) confirmed from API_BATCH_SRV_0001.edmx; composite key (Material, BatchIdentifyingPlant, Batch) so filtering by Batch alone can return several rows (per material/plant) — Material + BatchIdentifyingPlant returned for disambiguation. Generate: gen-lookups <outdir> <this> <cpi-lookup-template/skeleton/LOOKUP_TEMPLATE>",
+  "lookups": [
+    {
+      "name": "LOOKUP_BATCH",
+      "description": "DESADV: resolve/validate a Batch from API_BATCH_SRV by batch number (PI filter Batch eq '%s'). Returns Batch plus its identifying Material and Plant (the rest of the natural key).",
+      "service": "API_BATCH_SRV",
+      "entity": "Batch",
+      "edmx": "../edmx/API_BATCH_SRV.edmx",
+      "filter_keys": ["Batch"],
+      "select": ["Batch", "Material", "BatchIdentifyingPlant", "Supplier", "BatchBySupplier"],
+      "filter": "Batch eq '${header.Batch}'",
+      "response_fields": ["Batch", "Material", "BatchIdentifyingPlant"],
+      "result": [
+        ["Batch", "${header.Batch}"],
+        ["Material", "${header.Material}"],
+        ["BatchIdentifyingPlant", "${header.BatchIdentifyingPlant}"]
+      ]
+    }
+  ]
+}

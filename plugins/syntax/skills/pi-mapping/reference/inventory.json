@@ -1,0 +1,6778 @@
+[
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "org_json",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "027d1b3f3cf8335ead5c0ff39b026899"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_MessageHeader",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "036b79eb0716390296491fe6d93fb0a9"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_ProductionOrderRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "05859d08f4a03ddfb654e92a9b34e130"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_CO_EDI_DELIVERY_REQUEST_OUT_sort",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "06017c71f8cd3c2387b1c3e323838d5a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_UNB_Adressing",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "08b11027c7523e19a1eb5a2d38648ad2"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_SCHEDAGRMT_OUT",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "09fb11379e3d364db2d3f994c4935407"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "sortDeliveryRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "0ad0a6f65eb03dd89426f80d45fccd3e"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_EDI_General",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "0b33c7a8b6033cefb90b14b4fa6b3214"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_remap_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "0b3bee1601443f91b31716a20b3ee7a4"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_ProductionOrderResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "0e0bfbcae1b63badb3c2c66bbf519b64"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remove_batchsplit",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "0f973293aef838c2a71b89c482fc6663"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Nodes",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "12ee7642bdf73177a8d468c772994cee"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_batch_prepare_2",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "1756e7c673b632ac8328508c9df4f839"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_DELIVERY_REQUEST_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "199a421723c138e8ad9eefea4a099b29"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_HANDLINGUNIT",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "1e45a94ed2e039ba9de7096e1f8fab2c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2041cbaa78193adf822c6ba9178cc33a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "S4HC_CO_EDI_DELIVERY_REQUEST_OUT_ENH_1",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "209051771a0c3350a31c9cee147c4ca6"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_sort_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "217de3c1beca3fbaab3e11f7889ce3af"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_ORDER_REQUEST_OUT_order",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2262d96654db3ed09b934a5a0364744f"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_batchParts",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "284f62d5a0a63d4097d0c4674f995f1c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare_V1",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "295e4a749a803250a7240334402b0f64"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_ORDER_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2a5cb87369133056a8d6c6a67054441c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_A_InspectionResultEntity",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2ba90758481133f7908ef7b4ea3c2e99"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_CO_EDI_DELIVERY_REQUEST_OUT_cdb",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2bff96e65a193ad6a1e919e62716cb95"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_customer_enh_1",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2cea7af29287323cb4e9369099b984d6"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "DOCU",
+  "type": "Documentation",
+  "name": "_ID_7a7ed308a1e53b49b46624955b93467d_FUNC_LIB",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2dbe87d6af173e33b95db9b8f70a8970"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_BatchPostResponse__2__Mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "2fdd457697763c5186dbdad3ace298f7"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare_V2",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "30a3d0c11022329f9568943ff86e40d0"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_JITCALLREQUEST_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "3780f9aaed4b3543afa36e925c510001"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_A_ProductionOrderEntity",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "37dc09da489531dfaf3efe55c658e7dc"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_SCHEDAGRMT_OUT_basic",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "3b7c1a14319234e8875051264e070458"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_CO_EDI_ORDER_REQUEST_OUT_order",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "3c33b5d337a6388ba34145c9b3c61b33"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_ProductionOrderResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "3f53307178183459bbcfd63cbc7b990a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "417fb2bd2cca3db9b381af710e7d5a7b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_InternalActions",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "42f435f2c31a364faf83352d6a40e54b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remap_V1",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "435f1661496b3b699cf490777ae0df06"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "456f361c623f3d57aed35180c5660332"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchResponse__2__BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "460425e86a4432888103acf4f8718797"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_A_ProductionOrderEntity",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "465709310cfe36d1aaaea2472b539e9d"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_PutawayAllItemsRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "4728246980e03d678422bc0724805fe7"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "50a141c3cd9738cea19e8cd3fa170a23"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Node",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "519d4e8ab8353a68bf0c47ebb8a82ad4"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_BTP_SALESORDERBULKREQUEST_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "525df806fa233958a4c1b5347bb28090"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_TransmissionReceiverAPI",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "544bf0add5d7384ba161acc176a909ba"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_Delivery",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "552305387ca238688fbf056827b581c4"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "55d486aa0d4934cbb5c219800dcc7bd9"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_PostRequest__2__PostResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "58464600b29f309ea5eb3902bd8e2544"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "javax_mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "5a8e461cb23531ac8a59eb46bb433dec"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_batchPartsPOST_Template",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "5ac0f709854036a8b54264dd48eeae2e"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "5e784d13f9373df386a6961cf67bd168"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare_V3",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "5e8689bb40fe37769f28989df53abfd4"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ProductionOrderRequest__2__ProductionOrderResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "605346a61ba138ccac03f1c4de715d3b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_BatchResponse__2__Mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "6248e00118a93826811a4532c9288960"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remap_V2",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "62b3a1d443883dda89dbf731e9ad5157"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_ProductionOrderRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "646fe50412f6387c8be656e890f15142"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_PostResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "65fa382259953ef8ba08ef5bdbef3a12"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_basic",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "6685877a19b43d69aa1a8927f23bf581"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_enh_1",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "66f9f37b9128308ca936ed3a0f418186"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_BatchRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "68d3ed4d886b30dca1354c821185b771"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_BatchSuccess",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "696d574901f83cc3bb8084a595a10a72"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_batchParts_A_InspectionResultEntity_POST_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "699f3709285c31308d0f48578486e8a2"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_batchParts_A_InspectionResultEntityPOST",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "6b303c7345a33645b50e0d12e210ea86"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "6d95ba60e803363e8bf711c4f7371ad6"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "6e20c5b3b22d3526952ef7c3a47f2214"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_A_InspectionResultEntity",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "7032db61ece63c64ab0b2d7650543e19"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_BatchError",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "71ecbba89e863d2ab15dff5a7929c6f0"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_JITCALLREQUEST_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "74908fdac2393c1786302ccb0f593894"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Node",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "757ae796644d3043bb4f688c7f054d5c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_InspectionCharacteristicEntityPOST",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "76bc4576d86b3e66b49d25ca9db4d4d1"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_PostResponse__2__PostResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "777900beebc230bcabfe6890677c1316"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_A_InbDeliveryHeader",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "77dd2068399731d4862b6bf2d0717a54"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_OP_DELIVERYREQUEST_IN",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "78e9e9c3035d33adaa3847da2158f3d9"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "SimpleNamespaceContext",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "795454c39a413c71a551d64e75471f02"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_ProductionOrderSuccess",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "797c561dbeb33bbc89e23a445f38347c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Json",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "7a7ed308a1e53b49b46624955b93467d"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_SCHEDAGRMT_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "7a916429c20e35109f81c17b19f98e67"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "7c05e108998a37ebbcd4c7113e9be2b7"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_Transport_API",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "828ceb22e74e39e3aa8f6f6a006371ab"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_PartnerSwitches",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "837b015452473c3ea35d2fdfb18208d4"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchPostResponse__2__Mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "83de8524bdf43bf3be5933c9044f2100"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_Modified",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "83ea02f28925376dbd6fd3d258d745dc"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_BatchResponse_Receive",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "85c5089c145439c3841724c8e9a8b476"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_BatchResponse_ProductionOrder",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "87218fb364913af4bdb25bd4906b9a21"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchRequest__2__BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8740fb0c9c9d35dca38efce88823fe30"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_S4HC_CO_EDI_ORDER_REQUEST_OUT_cdm__2__ORDERS",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8877c07382403f67b58a0d2cd7c7b326"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_SCHEDAGRMT_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "890034c1e92134df932e67516d8b57cf"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_mod",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "89b63c75bd303172a2f88a9b93fbe376"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA_HeaderSegment_Adressing",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "89e212686da53a5db53575daf68dbecc"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_batchParts_A_InspectionResultEntityPOST_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8a3a97577f0e3ae99a28a7cc0a3d76f2"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Node",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8aba5055074933a6a9f7be9103a37953"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_PostResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8afd8c9cba843ca18041812dffb58923"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "8b721344dccc307f94676488dfb4c389"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_PutawayAllItems",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8cee1c20a4603116a678e2a9c1c77a94"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_BatchRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8dc21f7a973c36439356b74f6a199cb6"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_S4HC_CDM",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8e071e9204a33214a88459b118182eef"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Lookup",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8f4c515d9b07389085df186208239ab3"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_InspectionCharacteristic",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8fc41167d92b3d888207199075f91c0d"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_enh_1",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "91776f4f85463c94a76859d151b7d65b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_PostResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "91d813752cf4331d89b50118c34058d7"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_DELIVERY_ITEM",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "996fd36dc2f9333ea5c08402f4629a13"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_batch_prepare",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "998a1b8834053fedb6edc1ef22c9beca"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_CO_EDI_DELIVERY_REQUEST_OUT_remap",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "9b90458cc3f7340fbc81762349abc61a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remap",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "9c23874e992339f2bd66a92cdd77ee1c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_ORDER_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "9c6a6911ec173e6a870276e79ff94535"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_INVOICE_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "9d3c3edd8abb3c69b927603d1763b82b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "9e39c4a985003d6db0289e63e92b2e6c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_Modified",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "9f3533451f223d2ca5e65a5449f419e0"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_TransmissionReceiverAPI_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a0f3d0e1616238abb150632137a74a1a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_PostResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a1b8253a06fd3245ae654933f3a75ac5"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SCHEDAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a28c43f280b43885a2dcad38343569fb"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_SCHEDAGRMT_OUT",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a39ef2cb27b03ec0bb47fdb9106b0c63"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cmd",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a3a1248e74d339ad888b93378ac30324"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_ORDER_REQUEST_OUT",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a40abdc9d7f43bd1b85d69ddd77cae20"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a4ec254a5da833708e45e6dbf73cfc5a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_ProductionOrderError",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a5364f85f6f83c18b2fb54693d5f6f6a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_InspectionCharacteristicEntityGET",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a7b1f3ee5d883edfbf5a98364111faa5"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_BTP_SELFBILLINGREQUEST_API_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a88ca856f148346ebe71b07b19c3de78"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_BatchResponse_ProductionOrder",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a8d448c535583de08ec41e57db7f7660"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_A_InspectionResultEntityPOST",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "a9604d8760ec37a4ba7910e6cfcde069"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "afaa5bfeb8893233b9e77b4095960b50"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchREsponse__2__Mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "affa13f5339a3049af92b56083cf1544"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_CO_EDI_DELIVERY_REQUEST_OUT_collect",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "b0a9794fc6c63e85a7f411083ea11277"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "b5b0c12a057934b98ca8947fe4d77cd8"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "b617d5c796d23f24b3c3d34a8f86dc34"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_EDI_DELIVERY_REQUEST_OUT_remap_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "baf9cb9c4cad36ba902e03038a8a5f41"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "namespdecl",
+  "type": "Namespace Declaration",
+  "name": "bdba8170828511ebac9cfc49995f3a31",
+  "namespace": "",
+  "oid": "bdba8170828511ebac9cfc49995f3a31"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_BTP_SELFBILLINGREQUEST_API_IN_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "c2f024c8ae0a342e8f966c1fb6f3b3cb"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_OutboundDelivery_Entity",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "c44b6e9a504a311698e0ba595400a99d"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN_SchedulingAgreement",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "c46762169b6e3f3591abced5c8f624a7"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cmd_sort",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "c4af3e1dccd833c2ac7a8980bca79025"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_SCHEDAGRMT_OUT_Scheduling",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "c7977e9a2f9c3dd280601295cf92ee42"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_TransportHeader",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "cd596147ef3f36da9431d284007d1ca0"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_TransmissionReceiverAPI",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "cdd388c60285325187dbc670e6f1f73b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "ce16c82460553d99b9c168c66f941c60"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ANSI_ISA_Adressing",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "d073709bfc323ab79fc1e52e77966c50"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SALESORDERBULKREQUEST_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "d18eeb7426bb3d01976eb59468a60200"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_copy",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "d338b9aee61136a3bbddb8f06625ffbf"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_A_Putaway",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "d344f52973c13e868ee49554c40dd2ae"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_SCHEDAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "d54ae17309ba352281a82186c1408a3d"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_BTP_SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "d7345814793635f085da8c21899ef063"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_BatchResponse_Mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "db4d0c8a7ed332dea787437369061d0c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_Transport_API_Reduced",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "ddd3f0ed95603a6192bd0ac4472c0740"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_INVOICE_REQUEST_OUT_Invoice",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "e1ad3619384c308ca0a6bc396d2f2d7f"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_Transport_API_V2",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "e1d82fd2be2c3fc1b9790bcfd51454dc"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_PostRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "e45cb36def4939028a443116f9c7ab3c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_INVOICE_REQUEST_OUT_basic",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "e9c41041628f3f6a9796fdf5244c505e"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Lookup",
+  "namespace": "http://syntax.com/s4hc",
+  "oid": "ebc5fef8c2ff357a9f4ee0bc9249419b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_sort_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "ec53fd2ff6a939c1bd84959bf102a483"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_EDI",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "eea67e2110f0333cb7f315f6a21757d2"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_INVOICE_REQUEST_OUT_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "eefbd26b08c736d4b0a4bacc583d146c"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN_wo_policy",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "ef44f256741a3bbc9bba4e78d1c96ff4"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_BatchResponse_Receive",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "ef9155256a183fcc817c5c6d0913eb6f"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_A_InspectionCharacteristic",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f064e3f2ada033718ca0a36cb9a9afef"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f202e0f0a1203604a2eb299779b36a76"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare_No_HU",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f403e93a3d9b3a9fb8f9dce2c5dcc3e1"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f54df4708b3b3e268cf08e455e0af02b"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f63ba0da28c13f7b9eb9f2f80dfc9196"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_PostRequest",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f6795eefa7973e4088cb8149575cd2a9"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_Putaway",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f6d34a615543300b9768736d7d4b9ab3"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_InternalActions",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "f715aa55d08236ba91b393883f57f995"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_BatchResponse_Mail",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "fc5a8e89fba5376f9e99e44bf27fa89f"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_InspectionCharacteristicEntitiyPost",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "fd4c7bb776bd3ab4bfddc97264f71835"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_remap_cdm",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "fd99ea1f1e55349c9efa3177323b295a"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_InspectionCharacteristicEntitiyPost",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "fdc4c4510149349cb2de014282715134"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ProductionOrderSuccess",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "fdfc799fd20633e1a593cf0745556b12"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_Transport_API",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "fe7dcd64a6143fabaa9becde998c1594"
+ },
+ {
+  "package": "SYNTAX_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "ff0dd811c1db304fa910aa3ab756b428"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__ORDERS",
+  "namespace": "http://syntax.com/edi",
+  "oid": "000fbe8ce594350ca73600cf5e615136"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__QALITY",
+  "namespace": "http://syntax.com/edi",
+  "oid": "011cd995f89c3f3b8d0ad177db63fde2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDERS99B",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "02318b70c8cb32cfb17c458f87d4b3b9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_QALITY_96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0243f9bf32fa3158ac4758997b21ce33"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "Syntax_Lookup",
+  "namespace": "http://syntax.com/edi",
+  "oid": "02c46b56a05e3abd8f9a700b9e128529"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR_Split__2__DELFOR_Split_filter",
+  "namespace": "http://syntax.com/edi",
+  "oid": "04e0731563503f2aa9a66edd3442e50c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA490500_split__2__VDA490500_prepare",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "050088f06e0e3ea28e61dd9ba40007f5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "063763ed7c13313cb896b6b034507cfd"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ANSI_Message__2__ASC862_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "0663360a5f933f1e9a1f4d5a01caa896"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA491300",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "066d869482f5324e97005430de86d5d5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR_min",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "07a4cfa9a6753121a4c731dde98f12a5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INSDES01A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "081f363c806b35bbaa28bc12ee755fa9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ExchangeLogData",
+  "namespace": "http://syntax.com/edi",
+  "oid": "08a03c6853273632b4db8318b8a475f5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC830_004010_min",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "08d7ef3b416036689b035acce697dba1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELFOR04A__DELFOR04A_Split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "097e38b32e3e351ba856e97d05a055b9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "099920c153c932d390b43289758e006d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV_spit",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "0a07a4e7e2b73d53b63a407a60f4d0b6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR_97A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0b03074a2547360a988ac4e4d9ed8b5a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDERS96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "0b124ef9414f351096a4247ab8cce8e7"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "0b3a7711fdcd3d4f80a2f08a90111b74"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_QALITY",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0c3502694d4f33be9a54c5f686dc5725"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0cccd771180331efa2e6bb74116baa4f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_QALITY",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0cf8a812035137ea98a420361f973b91"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DELFOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0df70394b14e35a78969e18856647e5f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA491500",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "0e6a65f06b4b3a8a8ced0630d80b638c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDRSP96A_split",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "0f0baea711083fd09a53add31a33300f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DESADV_sort_prepare",
+  "namespace": "http://syntax.com/edi",
+  "oid": "0f5818c2477037288212fc63ddc8c263"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ExchangeFaultData",
+  "namespace": "http://syntax.com/edi",
+  "oid": "10567ea5d4533139972d3a52d08beb08"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV10B",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1221971dfd9f3e3abe6a39334a91e219"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ANSI_Message__2__ASC830_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "1290e79406a13a9aa0fcf398cbb669fd"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA491300_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "12b3080c228d39a2853cd88b6e5b3ed1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOICE",
+  "namespace": "http://syntax.com/edi",
+  "oid": "12b5d61149273619b23e911f50c6b680"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV_split__2__DESADV_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "13d03854f34839d0bc4d079451799302"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_QALITY_file",
+  "namespace": "http://syntax.com/edi",
+  "oid": "140c43c2a3cb3b77b62d3b27e547854e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_EdifactMessage",
+  "namespace": "http://syntax.com/edi",
+  "oid": "150d08c1b125317c9dd6e8a000be4eb6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491300_min",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "15108d7cc1a73116b335dbc83949de4f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC830_004010__2__ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "15ef64c4ec34355a8fc7993156add5fb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC856_004010_HL_Grouping",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "1641289aa66039448b3ae5178c9eb4a8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDRSP96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "16e5712db37b32a88c526b7c0d19865a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_INVOIC96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "189fbbfe84e5359cad7e1936bb89783b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDRSP",
+  "namespace": "http://syntax.com/edi",
+  "oid": "18f5a03fed1a3936ab2913f6fadbea77"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDERS96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1968af23036f38c6ab9eb12d149cb072"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDRSP96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1bbdf10404d737848093b98d632494e6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INSDES",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1bd3e19311ef32ad83bc535c65f8f727"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ANSI_Message",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "1befe65b95f132b2836f3bf094154c31"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_Party_ReferenceIdentifier",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1c882ccbb7a23a02b1864cade70fac14"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491600_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "1ccda24f15983bfc895c1adb462bbc41"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_INVOICE",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1d54fb44d0ff3f879938ce595e6af331"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA490500",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "1efad59f2048377687edff6e99569a15"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "sortDeliveryRequest",
+  "namespace": "http://syntax.com/edi",
+  "oid": "1fc669d51b5f37fe8e39f58f3017a729"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA_Message__2__VDA491600_Split_by_S662",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "217aed8fb8c93497a1c8c9fece3983d2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__DELFOR_Split_by_Lin",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2200026624b035c8bc2f98bcf52775bf"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "231ffa54a65138d1963598d25fa59bb3"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DESADV",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "2343830a6e74396791f2cdc0121d043f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491500",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "2400c0c8996934e7b0eb0424910ca9ce"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC",
+  "namespace": "http://syntax.com/edi",
+  "oid": "264a3ae0592a34d486ee58dfb22e6593"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DESADV_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "266fbccf06c63513895596bde9c3a1da"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR04A__2__DELFOR04A_Split_backup",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2679dd7a80e035e6918d3f04c430ff36"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOICE_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "267dbf4cce0f357691705ce927617d99"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491300_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "27593bd15e5b31539bff7c381f8a9760"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2aa48253386d3c2da9f94cc8d424a40c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC862_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "2ba66f8fcd5d3e47912053d112b593f1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2c113829316e353080a74bbc5ee7a4b6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDERS",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2c3a1afcbdf53f45b6ff9d1e35902e28"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__DESADV_test",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "2cb25d1ee5ac384c9ee19187bab86920"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491600",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "2d691c08d2ef391dbbe6e54c56f5c0ee"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDERS96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "2d701a3c054a378b8fba1b8a089a73d2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "ASC830_004010_Split__2__ASC830_004010_Split_filter",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "2e00ce26a3203e70843889d216179969"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "DESADV10B",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2ec2bad2961d33b8a1fb32d5c0ccf511"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2f5a51ed94a131f09cf7a56be0e9a191"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR04A_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "2f7782bce0b23025bc840566a019c81d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC862_004010_Split__2__ASC862_004010_Split_filter",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "2fc0df370efb3127a5924bf30f882602"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "ZDELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "304df8d727ab35d59bcb64e5583365fa"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_EDI_Message",
+  "namespace": "http://syntax.com/edi",
+  "oid": "31048f1047223337b745e7b1e861d3db"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDERS",
+  "namespace": "http://syntax.com/edi",
+  "oid": "3139d7ab6c6f3254873ee8a0f6bb4750"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC856_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "32eb1d562f323620b7c983adbb69c7c4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__DELFOR97A_split_V97A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "3460ca71394e3f0bb437ebb0973d328e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Node",
+  "namespace": "http://syntax.com/edi",
+  "oid": "36eb41d024b9315fae06879e4fbbd99f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA490500_prepare",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "36eb5b9d206b30edb628870120dbbc1b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_QALITY_Repeat",
+  "namespace": "http://syntax.com/edi",
+  "oid": "370275ae73963dafaf94babf650b87f4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDCHG",
+  "namespace": "http://syntax.com/edi",
+  "oid": "37786d1478743ce68f4aefce16d16576"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVRPT",
+  "namespace": "http://syntax.com/edi",
+  "oid": "37cd6cb7c1c63588a8f272e389e66dee"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "382f6209a0f3392ca83cd74648aa5efc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "ASC830_004010__2__ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "39dd20c402ef3fcfa8bc9e6da088da90"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_VDA491600",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "3af440458da938f8bde6b0aefeac0b76"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_EdifactMessage",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "3b062eac8c6d35b998e1ad60e6005989"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVRPT96A_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "3c1dff5aef583b4fb3186dcaf19b4d00"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR97A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "3e6df0628e8b3e0088d9c46d45db025d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ExchangeFaultData",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "3f3b2825a1f93b69b6f36a0deb594c12"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "3f848ebe963638d199eee2e9785391c3"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR97A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4021f841364c314184de1de236543994"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ORDRSP96A__2__ORDRSP",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "40c4dbf902ab355fa1659b1c8ad3fb0c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDRSP",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4115d9078a1d38eb8609d9d3208b44e5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ANSI_Message__2__ASC830_004010_Split_by_Lin",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "418066f359f03d6eb78542b66ea923de"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "DELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "420f7fa3b1dc39189c70d0f110bd7823"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC_10B",
+  "namespace": "http://syntax.com/edi",
+  "oid": "430a04b8505639f88bb3c2cab2919edd"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ANSI_Message__2__ASC862_004010_Split_by_Lin",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "431c9dc1ab9231a7b42abd946a6b91cc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "43bdc294ea6330fbafb19f07d587834d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "ZDELFOR04A",
+  "namespace": "http://syntax/edi",
+  "oid": "441909f594ef36599305baea709bb5fb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR04A_Split__2__DELFOR04A_Split_filter",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4627a2e4acb839b3aa624340caa4ee00"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "javax_json",
+  "namespace": "http://syntax.com/edi",
+  "oid": "463a0875c0c630d998c917b422a369cb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ASC856_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "46fe35ac542f35f19e19d65797ad6f2f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "47fc01eade2637f2943c4edb94ff1b45"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remap",
+  "namespace": "http://syntax.com/edi",
+  "oid": "48879aa4f1733474b93bcd2743061be4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC810_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "48ae5b523c0a3f1087fa5ba4c8c71157"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "48caa521d04130a48885751773bd57ab"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC810_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "48d0041863a2313eaff46443b99b93f6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA490500_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "4906bfb3962d38b59aada12ef822a6f8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "492ee15420a33971a299a2ab3872b8b2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Arithmetic",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4a01f1a32b47309fa522d7693de5beba"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Json",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4ae013ca990f373cb63db2480778b94c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOICE",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "4b835cb12ec030bf95024920f4842a60"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "DESADV07A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4bddbd77a82536ac97a65284da8aa6d6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ExchangeLogData",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "4be7661a9eca378f93e4bd1bf42c86fc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Boolean",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4cfa96daad18341190938639140fd1db"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDRSP96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "4d105cb83d733d998b50623984729e5e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ExchangeLogData",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "4ea32821463837819f5f9eba6b98ca13"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DESADV07A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4f1ac0a92ea33fa6af91dc0bd499cb2b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "ZDELFOR04A_Filter",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4f6274ac1d273b838a47b1e56ba40f72"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_VDA491600_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "4f909eb479c53436b044f2615d4c565c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Text",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4ff2c4252e973dd298ec304d5655e2fb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__DESADV_split",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "50847457d17b33188e852aa23a5a77d8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR_97A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "511f76d7de173faaa9a70a476cb8b59a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDCHG",
+  "namespace": "http://syntax.com/edi",
+  "oid": "519bd5d7bdc93013a72e2c1b7ba9793c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE_split__2__INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "5214cf51b07031fdb93b25ed83add316"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOIC96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "52d58887a50d3e41abc12127150382f8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "53231b0b723730f480f8bdd704831d1f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ANSI_Message__2__ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "542f7f1b0ee53ba1a5a5758f9804d970"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__ORDRSP",
+  "namespace": "http://syntax.com/edi",
+  "oid": "54659501182733a2b90f101537aae64e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DELFOR04A_SPLIT",
+  "namespace": "http://syntax.com/edi",
+  "oid": "5520cd50385b3267a6ff3262110db03f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC_7A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "560cff0b06c238b8aa4fef8d5d5e3146"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDRSP96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "56313c5263f2398fbae96d3c73021bf5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_EDI_MESSAGE",
+  "namespace": "http://syntax.com/edi",
+  "oid": "5661c4df3c373b7282fb0489cab4590e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDRSP96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "5772bd53d8a53f8b927488e9c839a0ed"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDERRSP_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "595077736f103075b0998a1c883b879c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC830_004010_min",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "5ca2a359cddc37829450d6e09d89dad1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "5d769b60ff9c3db19c8bfe161d777a74"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDRSP_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "5db77f91c62b325a80d0509c4bbdcf28"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR_97A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "5e1a774d77a137c485f38473a50f8ece"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC856_004010_HL_Grouping",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "5e8aa79a088639a9847ef1ffbc8367e9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA490800",
+  "namespace": "http://syntax.com/edi",
+  "oid": "6166f49c99cb31b7ab9e0b03d1f1059b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_QALITY_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "618b1716e3de32cc8bce453fe1e90994"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "61931584015635aebf3f133dda3bad03"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ASC862_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "619ecc26a10439d5ae9c6dc934fe7f79"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmfaultm",
+  "type": "Fault Message Type",
+  "name": "EDI_FAULT",
+  "namespace": "http://syntax.com/edi",
+  "oid": "62d28a200d7a3ace91c4eed4418be564"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDERS_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "62eb5ca1fd0d339ea84c4f1f4d8553ba"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EdifactMessage__2__INVOIC07A__2__INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "62f6d86bc5ef313fa9ee5cb23ea16b15"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_EdifactMessage",
+  "namespace": "http://syntax.com/edi",
+  "oid": "631181deb0923edf95b02b614288eddf"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Common",
+  "namespace": "http://syntax.com/edi",
+  "oid": "6390298a9dad39c5beac39e3b433ba18"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_QALITY",
+  "namespace": "http://syntax.com/edi",
+  "oid": "64d39ec2137133f2bcefd80b275a7cbd"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY_split__2__QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "65884cd8a56c394ca29c2dee782d8341"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "664582eab1aa3ffebcd380230fe123dc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV07A_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "6730f8d685dd3ae583da0119ee1ed16a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_VDA491300",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "68bff15f395e3e6f84a0e2e706e1fd54"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ORDRSP__2__ORDRSP_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "69159e218d6b38e1a238a5413608f7a0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE_7A__2__INVOICE",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "695f6ab10f923359b270d3e069feb41a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_QALITY_Repeat",
+  "namespace": "http://syntax.com/edi",
+  "oid": "6c7ad001fe09369fb48af801bef2ac12"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "6eb24901aaab3881be6ac9ea9e768606"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491600_min",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "70a64629479b3ede8638c7cd2abc852e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "ExchangeFaultData",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "70f03c4b7d2036e8a0f8f85f4647fc6f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR04A__2__DELFOR04A_Split_By_Lin",
+  "namespace": "http://syntax.com/edi",
+  "oid": "71440b2e3a343bc1bb757d2a2930354e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_VDA_Message__2__VDA490500_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "717e9a9b2e7d3c758367ca155d6d93f7"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "org_json",
+  "namespace": "http://syntax.com/edi",
+  "oid": "71f04242e2ac3f348c9b13d132349716"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR_97A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "73413e50ff283f6dbec600010b22eccb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__DELFOR_97A_Split_by_Lin",
+  "namespace": "http://syntax.com/edi",
+  "oid": "735d2479df003941b04cffa7c232ec6c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "DESADV10B",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7387695c8f463b05904e5a146ce50d39"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "73da814976f632c0ab40a6bd66f6a535"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DESADV10B",
+  "namespace": "http://syntax.com/edi",
+  "oid": "74a1c06e5c0139e4905dbb5345f17d9d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INSDES01A_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "764921f1b3eb3ba1842816b2f6810dc5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DESADV_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "76a7876c76c8380f891334b7b8976460"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__ORDCHG",
+  "namespace": "http://syntax.com/edi",
+  "oid": "771587df8cf2318ca0cf2515a5fd1cb6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "773a5f3835b63523b2c62a3a4ac0251f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__DELFOR_96A_Split_by_Lin",
+  "namespace": "http://syntax.com/edi",
+  "oid": "77575f51a2e43b4390f05b41c2c5c5ce"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ANSI_Message",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "77a23d372fb6395fbfe09799172488e1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDCHG",
+  "namespace": "http://syntax.com/edi",
+  "oid": "78bdb998e23332ca98e3591c84948e23"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA_Message",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "7a0a7f3963e23c43873b6985b821887c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_VDA490500",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "7aaf1e45b8383123817b4d5d3f5b898c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC7A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "7af5dc2982f73b29857569ca764c0dad"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE__2__INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7af9e82827c834dba37f8d063360394c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_EdifactMessage_test",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "7b9bd915a039389e9200f493943276d3"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DELFOR04A_SPLIT",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7ba7f640d76c30208ac837598df0ca00"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR04A_header",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7c700537c9373fb2a0dd6901ef5bc585"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7caab6d421ba3911832263321da3896e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7da2a86177903269bdff52a437ebd884"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__INVOICE_split_with_fname",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7db8572ac5e83b69a784cc68b23be16b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV_split",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "7e34be65b65e3131a5c399ebe2a0a60c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_EDI_MESSAGE",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7e490a0465823d29a486e1c5f5eae9c1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__DESADV_Split_by_Lin",
+  "namespace": "http://syntax.com/edi",
+  "oid": "7f21264ae1a438cb98083f0146f4d024"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_EDI_Message",
+  "namespace": "http://syntax.com/edi",
+  "oid": "824dd15e1905328db41bc00e808752b1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "827149f1eb803fcab63533a517504db2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV_split__2__DESADV_filter",
+  "namespace": "http://syntax.com/edi",
+  "oid": "82cda9b04b1a36d6948d738e226b17cb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "838963b463e83b348b4d4175a292f9db"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDRSP96A_split",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "847c4a8390d73a07a34e308d711caf80"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491300",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "855d11fa54a03488af6130634989d532"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Date",
+  "namespace": "http://syntax.com/edi",
+  "oid": "85760069d0b63130952425b459f1de39"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDRSP_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "871ccbd24897357789d607adc849ed2d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA490500_prepare__2__VDA490500_remap",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "8845c751abd8359e88afc9b52388ef42"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ASC830_004010__2__ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "88c3687242f639a2a964c7e71c8a7e57"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDCHG96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8941fe183da437208777bca35b04fd3e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8aa99f9f69ef33e9b1a013e60a9cd629"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8ab22c9761193bda8cada3799eb4f319"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8b3959087c4a3ac1be00171a508cb4be"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DESADV_test",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "8c03b722f7943c8795c53e7eb6ac58d5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR04A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8e55e97f008f3bf48f932cd842b49b3e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_EdifactMessage",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8edbe2c323ca3e91ad4509c2efd00bd1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_QUALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "8ee1bf79895033229b3e4a0a4721f60f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_QALITY_file",
+  "namespace": "http://syntax.com/edi",
+  "oid": "908d90a2a75e3f67ac18861cb38203d5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA491600",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "909bab56eb903843887c90811ae6dcf6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DELFOR_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9104eedabc8338da92d6ddd621bd087d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA_Message__2__VDA490500_test",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "911e12efaade34129240be2c92eae20f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDRSP_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "914b720e29b532ab87d35ced151dfc4b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_EdifactMessage",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "91ec41b4b8173f21b8bab245b77be09d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV_Split__2__DESADV_Split_filter",
+  "namespace": "http://syntax.com/edi",
+  "oid": "92a268d657cc38f68c46a84d7c757ddb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOIC96A__2__INVOIC",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "93e224b7c4223951b073a998a9a3b43a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EdifactMessage__2__INVOIC07A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "93fbb591ff0f3bdeac0b9c0d6d54bcad"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMEssage__2__DELFOR04A_Split_by_Lin",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9423268996ff3015b9258f11469d4d6a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA490500_split__2__VDA490500_filter",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "944708a6dd2a380d8c92ad15a0dea689"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ANSI_Message",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "94bb64b9054239ac8d96da9e5f606fa6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR_96A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "94ef8dc18be0356f960e2cd266c12991"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDERS96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "9527aa14530a3d1ab2f88f8cb27b83f9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491300",
+  "namespace": "http://syntax.com/edi",
+  "oid": "958f1cd3208638fdaff8f13e2a23aad5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "95de315273df3a50903300266017a21d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV07A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9722ba024220379bb52b876d3864207f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR96A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9724dde8bab736bdaf27e9f10544d286"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV07A_header",
+  "namespace": "http://syntax.com/edi",
+  "oid": "974f7a15bbc4376da443f33566f154dd"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDRSP",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9793cf67d16d3fc49bab1550c300c024"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOIC",
+  "namespace": "http://syntax.com/edi",
+  "oid": "97c7d81ad41436adb0de179e36f0b28f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "982fb76113f335eebe9b59de89e77e02"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC862_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "9a13c719d51b3dad85c268534742ba5f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOIC96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "9a5aaeeddfb33d40abfc3ce4690cdc03"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ASC862_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "9af228c7fecb3b57b5ad1b1eee520188"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR04A",
+  "namespace": "http://syntax/edi",
+  "oid": "9b74bafa7d973c2d839ddb7c83689b0d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__ORDCHG",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9c48e52eead53c8fbd64a69e3973a267"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ORDERS__2__ORDERS96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "9d4810450a1d3c2a82bed11bbe0479a7"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__INVOIC_splt",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9d6c9bce01b136f1ac4c45ac752a6b8b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDERS96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9da4594f03c0371ebef34a4ffafb0cd6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9daebb2659e13bbcb425fab34f1ec205"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__ORDRSP96A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9e1e89fede5b3ebf95818aa54b183fef"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "9e6dd0433c7438bcbd4b485ee9596284"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC830_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "9f6330637a6830ba91bd6f5acae62f9c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Test",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "9f65df53cb4d3ad8b70c96aca77bcfc5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVRPT96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a004ed8b92c239a1b5027394e020b36a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV07A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a097bd5f1d253f2ea6da50783fef34b0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "ZDELFOR04A_udf",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a0ca1c02863333c88fc8a39cc8c3e6e0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INSDES",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a1c976ea9b353212ab56a45ee895217c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR97A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a1ee2f9d70ca33d9802c14768c29cfdd"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_QALITY",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a258fd444c25353d953bbd97d9d52085"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_RECADV_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a2826364bfc63267a61cfef90e3d2b40"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_RECADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a2fa925b637e3ab0bf00ad73d6cb47bb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOIC96A__2__INVOICE",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "a31724f180bd36a7b5a8980974bce7f8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR04A_Split__2__DELFOR04A_Split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a31a7d3437783f6697f2b7c92c6f6316"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ASC830_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "a31fa479b9bc38d39db52073fdf4f207"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR_Split_filter__2__DELFOR_Split_group",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a4bb3868ece73898a4cbca2d5222279a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "Node_Functions",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a5684f4e4eb93a7ba7c0d2a064915e40"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC862_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "a6e71d2977f339ec865849f64797bb8c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "DELFOR04A",
+  "namespace": "http://syntax/edi",
+  "oid": "a7f49915b8a730ba8af29588ce63fc55"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a7f4bc9b4a60319aab772cc995ba9e25"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__DELFOR_split_97A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a82afa5e51e43c03b5e4528ac3bb6edb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ANSI_830",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "a852699a24583a13a0f9bdbd7a7facf4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a90672ab44e630cc9829663a3ce58ff7"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "namespdecl",
+  "type": "Namespace Declaration",
+  "name": "a9688e5030ce11ebc5b5eb18995f3a31",
+  "namespace": "",
+  "oid": "a9688e5030ce11ebc5b5eb18995f3a31"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__ORDRSP96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "a993095af92a344fb33c2e93a5c6cd1d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ANSI_Message__2__ASC830_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "ab560b76f7ac39c4a4c114429bf08b9d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA490500_min",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "ab6f7bf6b7263a8584870dbba73388a1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "aca13525be81378abceef1b20a40b914"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__DESADV_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "acba7126edcf3fd9a4bcb89e348814ef"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC830_004010_Split__2__ASC830_004010_Split_filter",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "ad26db8099fe32a58544b728b24ca39f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV_sort__2__DESADV_batchsplit",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ae2b67096fb03cc294e3bdfc6ea847c6"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmfaultm",
+  "type": "Fault Message Type",
+  "name": "ANSI_FAULT",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "ae5e2e9f193536bb97ae7b3f6aa0fbce"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__INVOICE",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ae98060d87ad39609bfa6b484e0973d0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "af02a0d4784c36ccbf3addebc209a6d9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_QALITY_96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "af39b71acdc6352abd9423859c64682d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b08bb1fbc6513be6bed0564ace571ee2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR_min2",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b0ec6a4faf8036b1ab89e4e4130c7c3b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ASC862_004010_split_TEST",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "b1170df8a3c13c66a4e81ce01a2a4d0c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b139c7ceae253701b9610a4236feb608"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDCHG96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b1edeba24e453abea2e5c684bf7d1567"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA_Message",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "b220b5ef2e81396693cfd0ae8e81b752"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOICE_7A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "b2e506c4984a33318d4d65967c6a167a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOICE_7A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "b30c02e3f91d3fb28d01a935ad1dadbf"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDCHG96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b4bf34d6f2af3b6495f1cc314564981a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__DELFOR_split_96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b5a2dbf01fa03a4e841188f3b5925d54"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC682_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "b6630a4725603ac6b1fdfbcd96e7ada3"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b69939c9d81f3cf9b497a497effd443a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ANSI_Message__2__ASC862_004010_Split_by_Lin_test",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "b747c48dfea5307b9ece41d14c2aeac9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDERS96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "b80a71f46ad13120ba7459f9b23d9d07"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR04A",
+  "namespace": "http://syntax/edi",
+  "oid": "bb32bf177d6a318880b3d7e4dd3105d5"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA_Message__2__VDA490500_Split_by_S512",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "bb8ab207382c37caaa84963aa7813520"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA490500_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "bc12c9a03a4c335588a0b55f923b20a4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ASC810_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "bc62671019a63220b20c992540fb1b8d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ANSI_Message__2__ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "bf554661025d3562b993d252c25177d1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__ORDRSP96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "bf98e30a43d73c3991af85d30e606fe1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC862_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "bfc2b4a0ac1c3939aaff3af43b2adb40"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDERS",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c0b270b23fec36c0ae7ee1d1d3d65063"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "c11a1de1395e3370b615f9c16288c6d8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ANSI_830",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "c148a4fbfeb034d6834cb5f0d8e27c23"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c14d9841f6f937d68603da2b472b04d7"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EdifactMessage__2__INVOIC96A__2__INVOICE_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c2ed53925997348ea3ef13243a9ba4f3"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DEFLOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c471a59f61eb31fa86f9c6968ff337cc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR4A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c62c40ccaeb43f1498050b1947f01b38"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDRSP_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c699632526a93fae9ae8daca18cc61f1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DELFOR96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c71a531505ca390681eb64d026376b9f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c799e0c1a3bb3773a54882effe73ae2b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__INVOIC",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c83ca63123b937dea7af6ac80e7b1da4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EDI_Message__2__DELFOR04A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c9367f9a73f93b4499bc997194713dc1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__ORDERS",
+  "namespace": "http://syntax.com/edi",
+  "oid": "c97c89f7126435eaa92b934d73f15f00"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA4913000",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "ccbb7017b0db3473be82bfaf80fe19b1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOIC",
+  "namespace": "http://syntax.com/edi",
+  "oid": "cd0e2e9b0f7639809e899c5c557acc44"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__QALITY_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ce5559ca03ae371c81aab337927fdcd0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_INVOICE",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "ced86be51e8e3a479aa7f6ad43f4d58b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOIC7A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "d0351d28be8736718c86bf132f872a4f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVRPT",
+  "namespace": "http://syntax.com/edi",
+  "oid": "d14df680a2b83ae5bca61aa5141009cf"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "sortXslt",
+  "namespace": "http://syntax.com/edi",
+  "oid": "d32a3410bbf53978bbf184939d3e0bea"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EdifactMessage__2__ORDRSP96A__2__ORDRSP_split_test",
+  "namespace": "http://syntax.com/edi",
+  "oid": "d3f4f5340aa03b26b5714ac90a771a03"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR96A_split__2__DELFOR_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "d42dc8d78bf83c248dc6a7be62170f7a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "d4ab52f052a334fd8ad6a6c1bc7b44e1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC_10A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "d641ddbd123530579fa9cb2dfc3c954e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA490500_prepare",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "d7005008616139c29dfe71036520ea2b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_VDA490500_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "d887a74211b43a0580419b2feb0d95a2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA490500",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "d9fdc3a0ce86302aa8eed4c4e932a9c0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DESADV",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "da6fd14691053d9d92ff23ee8cc5d363"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "db1c9c07962534e1bcf7b4fb871245db"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV_min",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "db926930ef5831ef95860e2fc9eac12c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "dc2505a1caf13235b79fab6b398a3fd8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Edifactmessage__2__ORDRSP",
+  "namespace": "http://syntax.com/edi",
+  "oid": "dc9b0e554f9c3ba395e9bbae74c9a25e"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "dd70503821e33d8fac82951239a358b9"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDRSP_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "dda46ec36f7e374881a922cc84ba4fd1"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EdifactMessage__2__INVOIC96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "df8cabaed0443ca5a5ac43c572a0b0d7"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__DELFOR_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "e05c820521cb38c5814f80aa2e97f50f"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ASC856_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "e0821061e341353a936511924f9b0b5b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDRSP",
+  "namespace": "http://syntax.com/edi",
+  "oid": "e09bd0b69aed3dca80ec5b29c272db90"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE7A__2__INVOICE",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "e0b150299a4433db9705a063ba76efe8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491500_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "e0d2c1c15c5a39e396dbbca8847c310d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOICE",
+  "namespace": "http://syntax.com/edi",
+  "oid": "e13cccac5f4a32aba97ebfaa26348958"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR04A__2__DELFOR04A_Split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "e13d074061903e86a32f54670afabd6a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DELFOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "e26bafa18ac53bbdbbdc28709df32a7b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_INVOICE_7A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "e2ca656ab12f3ea9891e7340a894e16d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EdifactMessage__2__INVOIC96A__2__INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "e4391fa7508e3f1abee46feacda8f88d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC830_004010_split",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "e79fa5eb53ef3e85ba0f640e347350e4"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOICE",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "e875bd78dace305eb17016edb9ad1bf3"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_VDA491500_min",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "e8df2c3ccbd5336a9d39f951616071af"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_VDA491600_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "e92c0f8345e03ff796765b11af8be83a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR04A__2__DELFOR04A",
+  "namespace": "http://syntax/edi",
+  "oid": "ea2fdb1de17e39b3a9c065247af13920"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EditfactMessage__2__DELFOR04A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ea34c6c1aec83e05831ecd3be2164771"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ORDERS96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ea560eb26138394182abb86db75812bc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC96A_split",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "ea6e5c6759b53bb8a4bde93117a6130d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DESADV_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "eac4f9dd000a391b8eca5f76b1d13347"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "eb31865b1b8535038eb5ec9b76c509ef"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_TEST",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "ebaf7f8ed9483872b600b332c3a0238d"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "addNamespace",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ec870bd905a53bdbb90fe1cb766cfe4c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR_filter__2_DELFOR_group",
+  "namespace": "http://syntax.com/edi",
+  "oid": "edb790c26412356b87285ef507c16ce2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV_sort__2__DESADV_remap",
+  "namespace": "http://syntax.com/edi",
+  "oid": "edf3f8f6d0903bd3afd9801118b99ee8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR97A_split__2__DELFOR_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ee49c28da87f36819ed3db80a42ba9d0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMessage__2__QALITY",
+  "namespace": "http://syntax.com/edi",
+  "oid": "eecd4769fe9331bca5f8f388bc2264c8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA491600_split__2__VDA491600_filter",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "f015bb3bdf8530ddb08c20aba4d27b85"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmfaultm",
+  "type": "Fault Message Type",
+  "name": "VDA_FAULT",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "f097a66d054e37c8acd37e3810151d94"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EdifactMessage__2__ORDRSP96A__2__ORDRSP_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f0aaaea6ab623402b701a2aa3a8998fb"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOIC_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f0d91540ec85394aa4a7741d0112c7df"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_DESADV_sort",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f305d0951fce3aaea0011f348629f777"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_Qality_96A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f4bdbd58b5c636ef8484e08c81b9499b"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_QALITY_min",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f52a115c574d36be8a0751648ca74df2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DELFOR04A_split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f54c495ff869344c9ad6219aae2ec124"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_VDA_Message",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "f58e06cac5d4302cbc20b68f40c49dee"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_VDA_Message__2__VDA491600_split",
+  "namespace": "http://syntax.com/edi_vda",
+  "oid": "f64ee9c1e8943a64a9667460a8839e36"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDERS96A",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "f6a06141e5053549ab0c9528059fd2bc"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_ASC862_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "f6b07fc8efa737c8bfa85caceae4d84c"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_EditfactMEssage__2__DELFOR04A_Split",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f7251a548acd334286af3b5c8179b251"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "f781b702b01b3a0e94923a5aab0dbe16"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC830_004010",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "f807dece5bca36a7b185ea727b059147"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY_split__2__QALITY_filter",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f84d5dc502ae399895712baaf15b708a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_ORDERS",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f905be1622493d57a89042e6ffa2a5e8"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "SimpleNamespaceContext",
+  "namespace": "http://syntax.com/edi",
+  "oid": "f98b80ae24dd35719d9af92222538d1a"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_INVOIC96A_split",
+  "namespace": "http://syntax.com/edi_versions",
+  "oid": "f9b51e3ca0ed3a8289ee5998254f8dab"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ORDCHG",
+  "namespace": "http://syntax.com/edi",
+  "oid": "fa02f74dcdec3fb996de2ecbbbe45bc2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_ASC862_004010_min",
+  "namespace": "http://syntax.com/edi_ansi",
+  "oid": "fb28c146f6ad3382ac13539cd9bf5720"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_INVOIC_7A",
+  "namespace": "http://syntax.com/edi",
+  "oid": "fbfc790eb86933c1af88e7dc1ebf8a26"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://syntax.com/edi",
+  "oid": "fc098b193fee3ee4ac281654c0988901"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_EdifactMessage",
+  "namespace": "http://syntax.com/edi/test",
+  "oid": "fe227ec26b9338f09335108f1a16afdf"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Lookup",
+  "namespace": "http://syntax.com/edi",
+  "oid": "fe9dc641874d39f4bfed43387b6462d2"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_DESADV_sort",
+  "namespace": "http://syntax.com/edi",
+  "oid": "fef9d139bd1f3b4b90d91dfbf7e767e0"
+ },
+ {
+  "package": "SYNTAX_EDI",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV_spit",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ff689d539325314da9ea23f432ec2f3b"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_INVOICE_REQUEST_OUT_cdm__2__INVOICE",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "0a0f8ddf80a83b36a4943765b19e3308"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V6",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "0cfb8b590a67398d9ccd2da8abe217f5"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "19adef01581b3289ae5da79d936390bc"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S2HC_CDM__2__VDA4913",
+  "namespace": "http://syntax.com/edi_vda_s4hc",
+  "oid": "1a362b4812ec35669716504eb6038c58"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE__2__SELFBILLINGREQUEST_API_IN3",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2015a39665083588a962b1670cfdaaa2"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_TransportBased",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "21af63b3636130289cf267d6c7d429da"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC856_004010_cdm__2__ASC856_004010",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "29c8b2406b6438d996867fec5f0f7c7e"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V3",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2b5301d3153334bcbab94925598803c6"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALTIY__2__InspectionCharacateristicEntityPost",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2c04ad3600cc3aafa1ebbd41e644d2b1"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V6_with_Grouping",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2d6684848acb337496618c046862e4c8"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "sortDeliveryRequest",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2d8789c203613179a8e013d3453dadf9"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V2",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2e866e2900ec37938849fe24b919f740"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "SimpleNamespaceContext",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "2fc4a852c8cd3d5ba631a494ea76cc38"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_S4HC_Text",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "33b08361f6383cd990826965e66afd27"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__ASC856_004010_TransportBased_cdm",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "3ad807000f2c38118def4622595a8160"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__ASC856_004010_cdm",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "3e9b603681a137b3b16ec6212c8a0951"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__ASC856_004010_TransportBased",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "419e777243f53f10a21e82a66d770b0f"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__InspectionCharacateristicEntityPost",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "41a6a2cf34de3d1bac791733a01e84ce"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC810_004010_cdm__2__ASC810_004010",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "4588a5883d3c352bb824503bd58a3ef9"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__ASC856_004010",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "4f20865e825534a0be8056448280da18"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA490500__2__SCHEDAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/edi_vda_s4hc",
+  "oid": "52945278de4b33b0a89a7baa8fd7bb94"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_prepare",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "571d2c42a3e2308987c67c59481c0550"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V6_TB",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "613e0e2cf5e938b4a1db3bd2e25a118f"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V4",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "6147e2777a3039d5ab2f59ce4a9c5987"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "64306fffc95336a3b8b520634edaf84d"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_INVOICE_REQUEST_OUT_cdm__2__INVOICE_2",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "6553467ce89238c4bb269d057376cb96"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Test",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "671c105e74f43035a1f1e9a65aa38dc0"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_INVOICE_REQUEST_OUT_cdm__2__ASC810_004010",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "6726af26a52d3056891b2ec7899cfff1"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V7",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "6898b264e1cf3612af1f98d0cdaea302"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Lookup",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "69883768490b3604909277400d4446ca"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_CO_EDI_DELIVERY_REQUEST_OUT_cdb",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "6a194c68df8037df98798cc31dacfeac"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "namespdecl",
+  "type": "Namespace Declaration",
+  "name": "6db3a551830f11eb8908dac2995f3a31",
+  "namespace": "",
+  "oid": "6db3a551830f11eb8908dac2995f3a31"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_S4HC_CO_EDI_ORDER_REQUEST_OUT_cdm__2__ORDERS",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "736acce89c6c3afa984fb5b2f0616ad0"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA491600__2__JITCALLREQUEST_IN",
+  "namespace": "http://syntax.com/edi_vda_s4hc",
+  "oid": "73c097e0fe8431a2a3c6978eb4626bd8"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__ASC856_004010",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "7d138c962a793b7bb390845c073ae018"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S4HC_CDM__2__INVOIC",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "7e26cbd7380d397dbc9b79b869532558"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S4HC_CDM__2__DESADV",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "8026e20ef76e3d7987f152bb55379687"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_NO_HU",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "8646004fd97f3992952cddfbd518554f"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE_REQUEST_OUT__2__INVOIC",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "8afe7e32c7303dcdb1ae94a466cf1bdb"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "addNamespace",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "8d32bbb9ae7932eba31d22988b6959f4"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "99a5da7da6eb3824843727a4f32c9cc0"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S2HC_CDM__2__INVOIC",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "9e6641459c4c3434a25b798b03672b64"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_EDI__2__EDI",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "9e7e7747b93037c2919f5efefd35092a"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V5",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "aa46e372f6ab3c89b2454507c2cbed34"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_S4HC_Lookup",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "ac6344769ac03cdcb68034403f4baa10"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE__2__SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "afcb211191973271ab21ab70c60f6abd"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S4HC_CDM__2__VDA4913",
+  "namespace": "http://syntax.com/edi_vda_s4hc",
+  "oid": "afd77117b4833342a7efeeef62e98f79"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ORDERS__2__SALESORDERBULKREQUEST_IN",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "b5607fc9d6c63358be30c9a35ee24267"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DESADV",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "b88b08a27a2d31759435a4cc289c4a4b"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S2HC_CDM__2__VDA4913",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "bfd4f19098f63e4e9cb5050e8dcbeee5"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remap",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "c594a734e9fe3514951e1f008377ef7d"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__ASC856_004010_cdm_V2",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "d03572e9c0233b8ba0df2b5749cd3f03"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Lookup",
+  "namespace": "http://syntax.comm/edi_s4hc",
+  "oid": "d48fb16a2a6432ba8ac24cfff0837921"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_S4HC_Node",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "dc6a923ec60c310abeb60e8cef25a2c8"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S2HC_CDM__2__DESADV",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "e59559eb1f83372192fe8738ee9cefd7"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN_V3",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "e913d303ea5d35009e51210c50cddec0"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__VDA491300",
+  "namespace": "http://syntax.com/edi_vda_s4hc",
+  "oid": "f3494e3d3ca63f2ebde8ecb1734eb635"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA_491600__2__JITCALLREQUEST_IN",
+  "namespace": "http://syntax.com/edi_vda_s4hc",
+  "oid": "fe34f9189356383c8fd313d71c849bba"
+ },
+ {
+  "package": "SYNTAX_EDI_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "ASC856_004010_cdm__2__ASC856_004010",
+  "namespace": "http://syntax.com/edi_ansi_s4hc",
+  "oid": "fe7c995e31243b0cbc84c27374644737"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "FOLDER",
+  "type": "Folder",
+  "name": "01c751079dba11ebb5c400000607e487",
+  "namespace": "",
+  "oid": "01ce26809dba11ebcee500000607e487"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_ORDER_REQUEST_OUT__2__ORDERS",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "02c009f3b0eb3a7886f5ea737977cef7"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "0474cb7e872f3466b2b32d24af65e7ab"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "04c1db16cf883ce297aa18ce1b05d746"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "0505160fafd5380ca656a84fb8cf72eb"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__Goodsreceipt_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "0538891e5ed83f9788b77aa430644d0c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE__2__SELFBILLINGREQUEST_IN_test",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "05a2d4c07f703dec9b5db2672324f821"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SelfBilling_Response__2__STATUS_RESP",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "06212424d8aa3ec28fdfa7e468837879"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE__2__INVOICEREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "06abaaf57b3232889ad381bb7bd09d22"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchREsponse__2__Mail",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "070e0ea6030a38efa2696eff95259a8f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "0941df6ee7f033d2846b7bdd0c4b5c23"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "099b0ff8ba6836008eecc12ea6d32baa"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_INVOICE_REQUEST_OUT_cdm__2__INVOICE",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "0a0f8ddf80a83b36a4943765b19e3308"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC830_004010__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "0b60dd52fdf83cb18b827ee82fac9321"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT_cdm__2__DESADV_V6",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "0cfb8b590a67398d9ccd2da8abe217f5"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "126b9d7d76c533099f78a5b99eabc899"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_ORDER_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "15856d0ab0c23e4f8edca3e8b8803e7f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELFOR__2__SchedAgrmtDlivSchedule_In",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "190ab19599bb33518fa0022afa541374"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://syntax.com/edi_s4hc",
+  "oid": "19adef01581b3289ae5da79d936390bc"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_INVOICE_REQUEST_OUT__2__INVOICE",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "1a9ee06447d13965bd7ae6159132f362"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY_2__ReceiverDetermination_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "1ab017ce4b0c34f58976291155ef4b0b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_OP_DeliveryRequest_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "1ad12a6dcac63a90a6246357708f85e8"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__File_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "1dbf7138816731b4a10a017c0aac7751"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_ORDER_REQUEST_OUT__2__MT_CO_EDI_ORDER_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "1df54cd257ca378197278d4cddb2ccc4"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__A_InspectionResultEntity_wo_ResultStatusField_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "1f8b6541e8ba305ca0f6fcff519affc9"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Transport_API_OUT__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "1ffdf9ecffd43041929d6c99e361f83b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELFOR__2__SchedAgrmtDlivSchedule_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "21e72eb9a5ff3bba99d3471dd9b4d046"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_5",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "22b3d1847f8c39c0863f929d1cb1a8f6"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DeliveryRequest_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "2346fb4748aa3015baf8eb91a39646e6"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV_Test",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "245af015892932329e75a7f5ab895387"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "26bc6966fc383cf980bea42a1d5822e6"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "27b724082b9e33eea70b93c93cfba699"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "28e5fc64d78c38c89e2fdecf92dc873f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__PutawayAllItems_cdm",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "29b0429318df3979897338b7bdbb2fec"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_MM_QALITY__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "2c2b97559303356db8fa5b7c01795900"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE_2_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "2f076be18a2333819206ad464b6f790e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "2f5da906d6ab34f2a325b7a7c5f53a4f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_wo_HU",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "300b56bfa55338d99b3415106d235f04"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__Putaway_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "30817e52061e37edb1e33acf5c411c1e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_V2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "323f58d69b7437dea68d83b43ca7df35"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_INVOICE_REQUEST_OUT__2__S4HC_CO_EDI_INVOICE_REQUEST_ARCHIVE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "32551fbdf1b5372cb2b8aaa974b8222b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__File_Error",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "325f26caba0d378f872de26121a16143"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_ORDERCONFIRMATIONREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "32c7b7c58dab3ba0aeba899be81646f8"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_SelfBilling_Response",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "32d63a26c7a33483a7461ffd32fc5a89"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__InspectionResultEntity_BatchResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "33cb938081ce3a17a0803465afb16aee"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_V2",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "33df630199793ba9876019b3ef602334"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_PPINT_MFGORD_EXE_REQ_OUT___2__CO_PPINT_MFGORD_EXE_REQ_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "352d20fed8843161bdc9b14fc3a33530"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV_prod",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "3589c4bf4c423009b39309eacd75d83d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "IA_sps_archiving",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "35fdca7a838b38cfa843dcdd064f6f9b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "36649be34340320c90a825c12bc6d397"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__INVOIC",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "36a92b6423cf3ca1b5ca3798ec4c9b64"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Node",
+  "namespace": "http://syntax.com/edi",
+  "oid": "36eb41d024b9315fae06879e4fbbd99f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE__2__INVOICEREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "3750e0ed3aaa310688fa00fcfdf32d56"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "37d1824a814c3ea59b2bbefdce726acd"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__batchParts_A_InspectionResultEntityPOST_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "397ae173127e3b98ab219f6cb66c0dee"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT__2__MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "39fa0a77d8a9349cb88f76c081ddb50c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "3b1057bf305a3004bd02b431a765fce9"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "3b2e110ea7a8313798752da3dda7b875"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_OP_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "3b507cf314463451938a107b8b998686"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUEST_IN__2__DELIVERYREQUEST_IN_test",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "3b71a3188ae53dfc9cbba206fcf27ed9"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_BTP_SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "3dde87575ec932438869b61074efd6c4"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ASC830_004010__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "3f23ad361cd33181ba5e70d3c7e6500c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_VDA490500__2__SCHEDAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "40ba8a6421e2344cb0bb07150d99b1f1"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "41e98b1975f535dfa8489c24062633ba"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ASC862_004010__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "420369b2ff723827902a7519e566115c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "424d4a25e07a38418f602bc9d30a40eb"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV_V2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "42ef42a6f83a3c5f95bb57f6b50567de"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_V2_wo_HU",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "43f28136dcfe306dbc10939b08a12854"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Test",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "457f4c57ed5a3c19a71ca154eadeec4e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "4609408e77243c9b8101e7a12657b52d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_OP_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "468126ab107d36f4beb78eff51fd8e6c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "482a46332b4e33fe9b6d05205de35438"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SchedAgrmtDlivSchedule_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "4c8f2fde76353f8ab2f1c2abdc8daee7"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_test",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "4d03f09e3e7b34f894d00ee49886db10"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_CO_EDI_INVOICE_REQUEST_ARCHIVE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "4e0978e45b76386abe19bd7da0f19cbe"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxEDI_Text",
+  "namespace": "http://syntax.com/edi",
+  "oid": "4ff2c4252e973dd298ec304d5655e2fb"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "52ca6561e35232baaf315ae07b1c1862"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_INVOICEREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "52eddcb6acb73ce0920e6c62171b995f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_CO_PPINT_MFGORD_EXE_REQ_OUT",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "53d313f81d8634faa392cdc516bf3a8b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DESADV__2__DELIVERYREQUEST_IN_New_HU",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "53e034736c6e394f98e2eb14b1eb7d01"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_INVOICE_REQUEST_OUT__2__ASC810_004010",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "555452647fc0326cac93986cf0504e8d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_INVOICE_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "5709a9c4923234f6961170a0170b6ed7"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE__2__SELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "58657e2ab77233c7808db97873b7d5f0"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__Putaway_cdm",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "5a8e04b0fe5b3edc82a6ba7d6f51ac61"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUEST_IN__2__PutawayAllItems_PostResponse",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "5acfbbcbf80f39c8a00d9309f8e00b1d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_OutboundDelivery_Batch__2__BatchResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "5cdeb03326bd3c19a5de33be027f0320"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "5d2cd09c8c9e3f12ab3d3faa661dca48"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "xsltTransformations",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "5d44c033624c36138707dd68fc785799"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__DELFOR_Filter_SCC",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "5d971304a909328589b6b50033182a06"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_PPINT_MFGORD_EXE_REQ_OUT___2__A_ProductionOrderEntity_BatchResponse",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "5e3c271b956f326d8a09e8d6d383d13a"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE_2_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "5f019f8284a53e6ab4484129903a860e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "6183b4fa6dae37e29252045fe3c8824d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "IA_envelope",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "6223fbafd25333a98ccaf2c2de3a5c75"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__InspectionResultEntity_BatchResponse_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "6381d514f29a3ad4a0834a7ceed0fa34"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_INVOICEREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "63eb0dbff43e32039656a4f692af2ace"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__File_Error_2",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "64374dc1608a3bda9583e7791d175498"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmtypedef",
+  "type": "Data Type",
+  "name": "DT_SelfBilling_Response",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "67435dd5efde34c4abe0f5ead38097a4"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE__2__INVOICEREQUEST_IN_ATTACHMENT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "67f3aa91e2493a508117ab48aaad5bbe"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__ReceiverDetermination_V2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "6952b1eb89c63a92b331db6bac5cc2ff"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_PPINT_MFGORD_EXE_REQ_OUT___2__A_ProductionOrderEntity_cdm",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "6a088081c2e33687b98002378fc9b5cd"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchResponseProductionOrder__2__ProductionOrderRelease",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "6f7c3e6198473612856707a6a6f4af00"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SchedAgrmtDlivSchedule_In",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "70c1969f07bf3779be43961600cd5385"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__InspectionResultEntity",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "72d9a59c11253d588f7e1e33591a3528"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_MM_QALITY_Repeat__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "72e035433c333785bd5e3165bb7ab424"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "72eab6d827b53e899295bd95cbb19dcb"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__ReceiverDetermination_V1",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "746f680a60893ba89944ed724635373d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DESADV__2__DELIVERYREQUEST_IN_wo_HU",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "75a71bafcd3d3a5babb5f6971a492ab9"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_TEST",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "773eab83e0a83441ae9edd2fae021158"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_MM_QALITY__2__ReceiverDetermination_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "789e0f3af3003c3fab98ba0b95c80766"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_Transport_API_Out",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "78c56160e58534688e95b3b1a217dfc8"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_PPINT_MFGORD_EXE_REQ_OUT_2__CO_PPINT_MFGORD_EXE_REQ_OUT",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "78e44919c5ae36079ff8d61bcc7708b4"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_ORDERCONFIRMATIONREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "799c578ca0003a5c8c943b1f9806ec40"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "7a38218c0c4c3059ae4dc0f4b6189c71"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "FUNC_LIB",
+  "type": "Function Library",
+  "name": "SyntaxS4HC_Json",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "7a7ed308a1e53b49b46624955b93467d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_DELIVERYREQUEST_IN_prepare",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "7bf1733abfbd34b6ab7f2d8fb39e128e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_PPINT_MFGORD_EXE_REQ_OUT___2__CO_PPINT_MFGORD_EXE_REQ_OUT",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "7cb71b8cc1a83c5e8c930c3e1eff573b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "7e529f9d385137859399c4547aae355f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "7ee143eec33a330aa82011f3c04573bc"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_w_HU_ID",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "7fa07783402c3b6896ec5d8d5fef1f22"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE_2_SELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "80517c8b161b3125be807e955f78b22f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_4",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "80b1270f8e663649a1a48952dc6ba0f0"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__Goodsreceipt_cdm",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "81c1f3fad2233e188628a0130ab4efaf"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DELIVERYREQUEST_OUT_putaway",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "81c3157a1f1b3428bdb84752874feb4d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN_V1",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "84f8c05e22b438e9943f4eedf9de236a"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY_Repeat_2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "85647fb0196c39f8a8043699951af3e5"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV_NoBatchSplit",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "867b95f64f313cfab15879727662ffff"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SchedAgrmtDlivSchedule_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "8727d65e89fd37fab1a3eb43f058142e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MT_SelfBilling_Response__2__STATUS_SYSTAT01",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "873926e5832b3bb59a6e40a98cbc78cb"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Transport_API_Out__2__ASC856_004010",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "873c03ea996c3ed6bfab3241a76de3d9"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchRequest__2__BatchResponse",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "8740fb0c9c9d35dca38efce88823fe30"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_DELIVERYREQUEST_OUT_test",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "880921604e223deb9a7e2d5586394614"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "88b42d9037bc3e1ba635d086bfd35086"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessage",
+  "type": "Message Type",
+  "name": "MT_SelfBilling_Response",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "89061863692939d48d4765e555bc9b40"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_OutboundDelivery__2__Batch",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "89b8e53437093377a5b4355c0b096615"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__InspectionResultEntity_BatchResponse_Receive",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "8ac111e14a6f3ce89c73006259c66839"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUEST_IN__2__Goodsreceipt_PostResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "8f8dbb5947ec3abda4ca50ec267e5c9d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__File_Error",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "905ea291ab6a35f8b5005bdae14597c5"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__VDA4913",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "905ed7d1d08137beb051e2ddbfb23217"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE_REQUEST_OUT__2__INVOICE_ARCHIVE",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "91fbecc73cfe3ab09c4b1bf3ed03ff12"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_ORDER_REQUEST_OUT__2__CO_EDI_ORDER_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "9223dbca5e9e3fb58eacaf7696d3ef3f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_Transport_API_Out__2__DESADV",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "9274886ef66a33edb02732642491230f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV_compare",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "92d166394d9d394fba3092b3de19c03e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_VDA_490500__2__SCHEDAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "9402d5c5c5aa3e61952ade4afab7a415"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_OP_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "9640e4af451c354bbe0b8b00a1bf3040"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__A_InspectionResultEntity_cdm_filter",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "96e625c0ebcf392a9ecba66b505a1edb"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DESADV__2__DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "9804a1ecfd283295ac74c84d41fa819a"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__File_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "993a6d3dc62130a6927b7ee010dc56ba"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_SELFBILLING_RESPONSE",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "9ab654ae0f1a3f9f9588623f3fa41147"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT__2__MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT_cdm",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "9c16537c1ddf3cee94a2091a1a968c09"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__CO_EDI_DELIVERY_REQUEST_OUT_remap",
+  "namespace": "http://syntax.com/cdm",
+  "oid": "9c23874e992339f2bd66a92cdd77ee1c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_OutboundDeliveryBatch__2__BatchResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "a26eb1a1c2b8361da87c91d457c5deb3"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__2__ASC856_004010",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "a4818aa51b863a7b8fb1c6217fa0d786"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "a678a3d799d6346f8500bee2d51b3cb6"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_INVOICE_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "a71667c85939355d99fed19714fc3126"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "a7e1c2015020339685ee020d0447e169"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_Transport_API_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_V2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "a7edb3e25289338ab476aa8815dcce73"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DESADV__2__DeliveryRequest_in",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "aa1681d667b93bfdae4495370d66368c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_S4HC_CO_EDI_ORDER_REQUEST_OUT__2__MT_S4HC_CO_EDI_ORDER_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "aaba257f62b93ec7be5df90c46869f58"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "ab467fae1d5e3461a75b362b4b0d3cb2"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE_2_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "ac6009b23e2f39d7831b435e9920a25e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ORDRSP__2__ORDERCONFIRMATIONREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "acba9f6db49035c19ec8dd12448008e4"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_S4HC_CO_EDI_ORDER_REQUEST_OUT__2__ORDERS",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "addb0709b4c73951a9a342d45032dd19"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_QALITY_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "ae17b83b382c39988a6d998065f4139f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_6",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "af751ab0e3c333c3864e1f2df9296109"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__GoodsReceipt",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "aff368e752693ff1975bbb75b651f949"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "b0f1b99530523509a308606ca531139a"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE__2__INVOICEREQUEST_IN_TEST",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "b13f089ca84e313aa5ac14e1007e1db4"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_ASC862_004010__2__SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b1649bb687013110aba4a7bff998d6f5"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_SELFBILLING_RESPONSE__2__STATUS_RESPONSE",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b31d0f58b93d3a12ab5c98d139ecbf41"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_INVOICE_2_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "b409741193c332aaa8d5fb5cd04e3ab3"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV_TEST",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b442940e175b3215a979b45af81e2f39"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUEST_IN__2__GoodsReceipt_PostResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "b48052f8668a30978656e164ddd2fb72"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN_V2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b52bd41955723523890cd3bcf566f105"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE__2__SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b5362de25a4e3b29aec16ad875c4457d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "b58a19aa543332f5b2cc1d7ffdabc887"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_PPINT_MFGORD_EXE_REQ_OUT",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "b5b4bd5fdb4539ce9fcbdcd5505cc7ae"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_SelfBilling_Response1",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b5cc9f48272a38e5aceaeb4ce26546d3"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__ASC856_004010",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b72ad8bf8b2d3136ac1785027ce59a4e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_CO_EDI_DELIVERY_REQUEST_OUT__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "b7f18e2263a33287acb0ea7c5ea7a598"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "SI_OA_SelfBilling_Response__2__STATUS_SYSTAT01",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "ba81ba7049ec3fd58c61be0a6e633034"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_INVOICE_REQUEST_OUT__2__S4HC_CO_EDI_INVOICE_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "bc07cf9966d030fea4f4c969dcc6b444"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SchedAgrmtDlivSchedule_In",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "bc9e0c9e49c03385bb69956ab77fce91"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__A_InspectionResultEntity_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "be70516df1e134fc98b3900fa6b59f90"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__OutboundDelivery_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "be8d6a91c4d5399d956b426245d2398d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DeliveryRequest_In",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "bf02b0cb11ec3e17a469e79a3ccf09c3"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "c0bdbae30fbb3943b5e94e7046171551"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__DELIVERYREQUEST_IN_test",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "c3cbb60dff4639a9b1497387e42553b5"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_Transport_API_OUT__2__ReceiverDetermination_V2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "c4d17e0e79833cb496fb3fbc9a91d5c7"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "c4dc7c6bdfb1381fa134b5f1645bcc95"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_V1",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "c52625b54dd030acb8b222a9ca7e3706"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "S4HC_SCHEDGAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "c61d8b4c94703f61ac4bdc565a710afe"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_BTP_SelfBilling_API_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "c6c72b4e30bf3ceb8a6ce146dd47669b"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "c823505790de34489b84258f9058b7a8"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DESADV__2__DELIVERYREQUEST_IN_V2_Backup",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "c9a30e6144f73147b39c40afb68ea42f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_SCHEDGAGRMT_OUT__2__DELFOR",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "cba641f9efb63a46bb908dab11b71dce"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__Putaway_cdm_TDUtest",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "ce33aab13a4c3b42ae17e52411f57fc2"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "cfe863bb0dae3e6d883afe48b7d48f04"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_ORDRSP__2__SPS_S4HC_ORDERCONFIRMATIONREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "d019e9ed1e553a85b4f73998033dcf13"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_SPS_S4HC_CO_EDI_INVOICE_REQUEST_OUT__2__S4HC_CO_EDI_INVOICE_REQUEST_ARCHIVE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "d0a5786578303157abcb04a122e2ff42"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "d138dfafdc293d6c8c3fa3a86e6c2afd"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__ReceiverDetermination_Repeat_Test",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "d188e9d3e6c032a8898c87916fcc2605"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_3",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "d20f50b07135321f8b33e9984746a874"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUESTIN__2__PutawayAllItems_PostResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "d566aed091bc33268e9bdab1c7a69d76"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "d9314522bec638fda0a4c5f89a6855b1"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_Transport_API_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "d94b9b421c9e3b9cbefe87440f2b2f68"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELFOR__2__SCHEDGAGRMTDLIVSCHEDULE_IN_V3",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "d9c94793c59e3b38a6102467a1fa0e31"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_CO_EDI_DELIVERY_REQUEST_OUT__2__DESADV",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "dc1b967d331f31a88eba09abec237c77"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SELFBILLING_RESPONSE__2__STATUS_RESPONSE",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "dcc8cbe0203b37faa717a89e3e47147a"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_BatchResponse_Receive",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "e11644d7fc6332368e24b0d4125308f2"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DESADV__2__DeliveryRequest_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "e31be0d8af0f38a3988f36e784f29978"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUEST_IN__2__PutawayAllItems_PostResponse",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "e3c58e7759a23f6eadec2661bfedf50f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_SelfBilling_Response__2__STATUS_RESP",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "e4103c9a5ad3358ea7d0f6778bde08f2"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "e4a93d8e22db336090dd9aae3ca0e258"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DELIVERYREQUEST_IN__2__OutboundDelivery",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "e52fe140cb9636d09da3e881392a4066"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_CO_EDI_DELIVERY_REQUEST_IN",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "e5851210119038309e0462025ca9834c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_PPINT_MFGORD_EXE_REQ_OUT",
+  "namespace": "http://sps.shop/s4hc/internal",
+  "oid": "e603f5ecc2e73d5c9d8283fe263211f6"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_DeliveryRequest_In",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "e8ed600c6ff63d6b8971e2cc1c97d6b9"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__PutawayAllItems_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "e97c4dc69f3635a490b8459de93e6d75"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm_2",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "e98cf48bad7c3aa2853be2b875d1ecba"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_ORDER_REQUEST_OUT",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "e98ff153705330a2a9f6221b111793f3"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__File",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "ea1cf63bc1283a09800ac84e444a0ac7"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_DELIVERYREQUEST_IN__2__Putaway",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "ead7df12e3323918bf2ecf613421607e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_QALITY__2__File",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "eaf4f4ff0fd1315793e94f59dfc59237"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_CO_EDI_SCHEDGAGRMT_OUT",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "eb044c7093d531dfb5d14e97b83f342e"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT__2__MM_SPS_S4HC_CO_EDI_EDI_SCHEDAGTMT_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc",
+  "oid": "ebde2eed47113337a83645513888e835"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "TRAFO_JAR",
+  "type": "Imported Archive",
+  "name": "addNamespace",
+  "namespace": "http://syntax.com/edi",
+  "oid": "ec870bd905a53bdbb90fe1cb766cfe4c"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_BDCREATESELFBILLINGREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "ed1fb22647923f0289fed1df8c48e2df"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_BatchResponseProductionOrder__2__ProductionOrderRelease",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "ed1ffcb02650374ca2d9eeb032bc332d"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_OA_CO_EDI_DELIVERY_REQUEST_OUT",
+  "namespace": "http://sps.shop_/s4hc",
+  "oid": "f1a102927c0433d3974d1b1082b73b38"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmmessif",
+  "type": "Service Interface",
+  "name": "SI_IA_SCHEDAGRMTDLIVSCHEDULE_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "f300b8b25320302587e2ceed711bceb8"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__ReceiverDetermination_Repeat_Test2",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "f3c7fc1616233d8295113cea0bb84ed0"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "f410591a564e32d3afa4fbaee52a605f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__ReceiverDetermination_Repeat",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "f44d2a565a133c5fa99563d676f8b07f"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__ReceiverDetermination_Repeat_Backup",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "f8183b4fa0773a0e9a91f7ddd87862f8"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "namespdecl",
+  "type": "Namespace Declaration",
+  "name": "f8a95430915011eb8936dac2995f3a31",
+  "namespace": "",
+  "oid": "f8a95430915011eb8936dac2995f3a31"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "ifmextdef",
+  "type": "External Definition",
+  "name": "SPS_S4HC_OP_DELIVERYREQUEST_IN",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "f98c2c8b08fe3a168f701de6eceb32db"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "MAPPING",
+  "type": "Operation Mapping",
+  "name": "OM_DESADV__2__DeliveryRequest_In",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "faf9bdc9c0453ee3b3594eb3df0eec38"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_SPS_S4HC_CO_EDI_DELIVERY_REQUEST_OUT__2__S4HC_CO_EDI_DELIVERY_REQUEST_OUT_cdm",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "fbb2583cd1af3cf5847a252813f5ff48"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_INVOICE_2_SELFBILLINGREQUEST_API_IN",
+  "namespace": "http://sps.shop/s4hc/customers",
+  "oid": "fbc0eb6ca23f35f2897920c0bf8801b7"
+ },
+ {
+  "package": "SPS_S4HC",
+  "typeID": "XI_TRAFO",
+  "type": "Message Mapping",
+  "name": "MM_QALITY__2__ReceiverDetermination",
+  "namespace": "http://sps.shop/s4hc/suppliers",
+  "oid": "fdb0d1d796cd3f719e8cf0c99de94b3b"
+ }
+]

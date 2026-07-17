@@ -1,0 +1,11 @@
+{
+  "name": "syntax-team",
+  "owner": { "name": "SYNTAX CPI Team" },
+  "plugins": [
+    {
+      "name": "syntax",
+      "source": "./plugins/syntax",
+      "description": "SYNTAX CPI/SAP-Integration Tools: iFlow-Deploy, Jira-Tasks, PI/PO-Migration, IDoc-Mapping"
+    }
+  ]
+}
