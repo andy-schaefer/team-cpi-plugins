@@ -13,6 +13,7 @@ Plugin **`syntax`** (Marketplace `syntax-team`):
 | Typ | Name | Aufruf |
 |---|---|---|
 | Skill | cpi | `/syntax:cpi` |
+| Skill | create-iflow | `/syntax:create-iflow` |
 | Skill | jira-cpi-task | `/syntax:jira-cpi-task` |
 | Skill | jira-mail-task | `/syntax:jira-mail-task` |
 | Skill | pi-mapping | `/syntax:pi-mapping` |

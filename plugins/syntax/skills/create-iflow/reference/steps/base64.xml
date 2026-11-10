@@ -1,0 +1,21 @@
+<!-- Base64 encoder / decoder. Verified from BYD_TM5_PaymentFileReplication (deployed).
+     DECODE: activityType=Decoder, encoderType="Base64 Decode"
+     ENCODE: activityType=Encoder, encoderType="Base64 Encode"
+     No cmdVariantUri on this step. componentVersion 1.0.0. -->
+
+<!-- DECODE -->
+<bpmn2:callActivity id="@@ID@@" name="@@NAME@@">
+    <bpmn2:extensionElements>
+        <ifl:property><key>activityType</key><value>Decoder</value></ifl:property>
+        <ifl:property><key>encoderType</key><value>Base64 Decode</value></ifl:property>
+        <ifl:property><key>componentVersion</key><value>1.0.0</value></ifl:property>
+        <ifl:property><key>IncludeHeaders</key><value/></ifl:property>
+    </bpmn2:extensionElements>
+    <bpmn2:incoming>@@IN@@</bpmn2:incoming>
+    <bpmn2:outgoing>@@OUT@@</bpmn2:outgoing>
+</bpmn2:callActivity>
+
+<!-- ENCODE (swap the two values):
+        <ifl:property><key>activityType</key><value>Encoder</value></ifl:property>
+        <ifl:property><key>encoderType</key><value>Base64 Encode</value></ifl:property>
+-->

@@ -1,0 +1,27 @@
+<!-- PGP Encryptor. Verified from SCI_TM5_SendBankPayments (deployed).
+     activityType=PgpEncrypt ; cmdVariantUri cname::PgpEncrypt/version::1.0.3
+     PgpSignatureOption: NoSignature | <signing-key-userid>  (brief: NoSignature)
+     PgpContentEncryptionAlgorithm: AES | ... ; Key_Length: 128|192|256
+     PgpCompressionAlgorithm: ZIP | Uncompressed | ZLIB | BZIP2 ; PgpArmored true|false ; PgpIntegrity true|false
+     PgpEncryptionUserIDs = ESCAPED row/cell table of recipient public-key user IDs.
+     RUNTIME PREREQ: a PGP Public Keyring must be uploaded to the tenant (Monitor > Manage Security >
+     PGP Keys) and the user ID below must match a key in it, or the flow HANGS in STARTING with
+     UNRESOLVED (objectClass=...PGPPublicKeyringAccessor). -->
+<bpmn2:callActivity id="@@ID@@" name="@@NAME@@">
+    <bpmn2:extensionElements>
+        <ifl:property><key>PgpSignatureOption</key><value>NoSignature</value></ifl:property>
+        <ifl:property><key>PgpContentEncryptionAlgorithm</key><value>AES</value></ifl:property>
+        <ifl:property><key>PgpIntegrity</key><value>true</value></ifl:property>
+        <ifl:property><key>cmdVariantUri</key><value>ctype::FlowstepVariant/cname::PgpEncrypt/version::1.0.3</value></ifl:property>
+        <ifl:property><key>componentVersion</key><value>1.0</value></ifl:property>
+        <ifl:property><key>Key_Length</key><value>256</value></ifl:property>
+        <ifl:property><key>activityType</key><value>PgpEncrypt</value></ifl:property>
+        <ifl:property><key>Activity_Name</key><value>@@NAME@@</value></ifl:property>
+        <ifl:property><key>PgpCompressionAlgorithm</key><value>ZIP</value></ifl:property>
+        <ifl:property><key>PgpArmored</key><value>true</value></ifl:property>
+        <ifl:property><key>PgpEncryptionUserIDs</key><value>&lt;row>&lt;cell>@@PGP_USERID@@&lt;/cell>&lt;/row></value></ifl:property>
+    </bpmn2:extensionElements>
+    <bpmn2:incoming>@@IN@@</bpmn2:incoming>
+    <bpmn2:outgoing>@@OUT@@</bpmn2:outgoing>
+</bpmn2:callActivity>
+<!-- @@PGP_USERID@@ can be a {{param}} e.g. {{PGP_PublicKey_UserId}} -->

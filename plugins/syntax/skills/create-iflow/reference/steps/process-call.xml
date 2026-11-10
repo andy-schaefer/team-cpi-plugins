@@ -1,0 +1,13 @@
+<!-- Process Call -> a Local Integration Process in the same iFlow (used by prod & test processes
+     to call the shared Local Integration Process). processId = the target <bpmn2:process id>. -->
+<bpmn2:callActivity id="@@ID@@" name="@@NAME@@">
+    <bpmn2:extensionElements>
+        <ifl:property><key>processId</key><value>@@TARGET_PROCESS_ID@@</value></ifl:property>
+        <ifl:property><key>componentVersion</key><value>1.0</value></ifl:property>
+        <ifl:property><key>activityType</key><value>ProcessCallElement</value></ifl:property>
+        <ifl:property><key>cmdVariantUri</key><value>ctype::FlowstepVariant/cname::NonLoopingProcess/version::1.0.3</value></ifl:property>
+        <ifl:property><key>subActivityType</key><value>NonLoopingProcess</value></ifl:property>
+    </bpmn2:extensionElements>
+    <bpmn2:incoming>@@IN@@</bpmn2:incoming>
+    <bpmn2:outgoing>@@OUT@@</bpmn2:outgoing>
+</bpmn2:callActivity>
