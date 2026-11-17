@@ -9,19 +9,32 @@ description: 'Interagiert mit SAP CPI / Integration Suite Systemen. Nutzen für:
 ```powershell
 # Systeme - API-URL nach Erhalt ergänzen
 $CPI_SYSTEMS = @{
-    DEV = @{
+    MCA-D = @{
         TokenUrl     = "https://integrationsuite-30nqhpsj.authentication.eu30.hana.ondemand.com/oauth/token"
         ClientId     = "sb-ba67c0f9-a733-4381-a16b-18b0082965ce!b10087|it!b293"
-        ClientSecret = $env:CPI_DEV_CLIENT_SECRET   # in ~/.claude/settings.json env setzen
+        ClientSecret = $env:CPI_MCA-D_CLIENT_SECRET   # in ~/.claude/settings.json env setzen
         ApiUrl       = "https://integrationsuite-30nqhpsj.it-cpi020.cfapps.eu30.hana.ondemand.com"
     }
-    PROD = @{
+    MCA-P = @{
         TokenUrl     = "https://integrations-5jxkrzkq.authentication.eu10.hana.ondemand.com/oauth/token"
         ClientId     = "sb-91689ba5-8992-4857-af2d-46a030133c4f!b532000|it!b182722"
-        ClientSecret = $env:CPI_PROD_CLIENT_SECRET  # in ~/.claude/settings.json env setzen
+        ClientSecret = $env:CPI_MCA-P_CLIENT_SECRET  # in ~/.claude/settings.json env setzen
         ApiUrl       = "https://integrations-5jxkrzkq.it-cpi024.cfapps.eu10-002.hana.ondemand.com"
     }
     # TEST = @{ ... }
+    SW-D = @{
+        TokenUrl     = "https://sw-ci-d-3jiely4m.authentication.eu10.hana.ondemand.com/oauth/token"
+        ClientId     = "sb-36bb2928-6a9c-482e-b588-ee8574205e2e!b778833|it!b641068"
+        ClientSecret = $env:CPI_SW-D_CLIENT_SECRET   # in ~/.claude/settings.json env setzen
+        ApiUrl       = "https://sw-ci-d-3jiely4m.it-cpi049.cfapps.eu10-003.hana.ondemand.com"
+    }
+    SYN-D = @{
+        TokenUrl     = "https://syntax-integration-suite-7i3vjnji.authentication.eu20.hana.ondemand.com/oauth/token"
+        ClientId     = "sb-dcd33f83-dfd7-4571-a01d-11a93fd9ae46!b161150|it!b150645"
+        ClientSecret = $env:CPI_SYN-D_CLIENT_SECRET   # in ~/.claude/settings.json env setzen
+        ApiUrl       = "https://syntax-integration-suite-7i3vjnji.it-cpi050.cfapps.eu20-002.hana.ondemand.com"
+    }
+
 }
 ```
 
